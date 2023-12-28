@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Home',
-  description: 'Innovation Geeks - Unlocking Your Digital Potential',
-  kewwords: 'Innovation Geeks, IG'
+  description: 'SparkX 2024',
+  kewwords: 'SparkX'
 }
 
 import Hero from '@/components/hero'
