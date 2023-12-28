@@ -37,7 +37,7 @@ export default function Banner123() {
                    <div className="relative">
           <h2 className="text-2xl md:text-4xl font-extrabold mb-2 text-4xl text-white ">Why Still Waiting?</h2>
           <h2 className="text-2xl md:text-4xl font-extrabold mb-7 text-gray-400 ">Unlock Innovation & Break Barriers</h2>
-          <a className="btn-sm inline-block mb-20 lg:mb-20 px-5 py-4 text-white font-semibold  bg-blue-600 hover:bg-blue-700 rounded-mg focus:ring-4 focus:ring-indigo-300 transition duration-200" href="#">Register Now</a>
+          <a className="btn-sm inline-block mb-20 lg:mb-20 px-5 py-4 text-white font-semibold  bg-gradient1 rounded-mg focus:ring-4 focus:ring-indigo-300 transition duration-200" href="#">Register Now</a>
           <ul className="flex flex-wrap -m-4">
             <li className="p-4">
               <a className="flex flex-wrap" href="#">

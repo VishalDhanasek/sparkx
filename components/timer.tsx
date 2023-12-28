@@ -92,6 +92,7 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
 
 
     <div className="bg-[url('https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover  h-[500px]">
+      <div className="relative h-[500px] bg-gradient-to-r from-gradient1/70 to-gradient2/40">
        <div className="max-w-3xl mx-auto mt-10 text-center ">
             <h1 className="h2 text-white mb-2"><br></br><br></br>Grand Finale Timer</h1>
             <p className="text-xl text-white mb-10">Hurry up and Register you seat right now!</p>
@@ -103,11 +104,11 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
           {/* Days */}
           <div className="flex flex-col gap-2 relative">
             <div className="h-16 w-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
-              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-[#191A24] "></div>
-              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gray">
+              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-gradient1 "></div>
+              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gradient1">
                 {countDownTime?.days}
               </span>
-              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-[#191A24] "></div>
+              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-gradient1 "></div>
             </div>
             <span className="text-white text-sm sm:text-lg h3 text-center capitalize">
               {countDownTime?.days === "01" ? "Day" : "Days"}
@@ -117,11 +118,11 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
           {/* Hours */}
           <div className="flex flex-col gap-2 relative">
             <div className="h-16 w-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
-              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-[#191A24]"></div>
-              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gray">
+              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-gradient1"></div>
+              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gradient1">
                 {countDownTime?.hours}
               </span>
-              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-[#191A24]"></div>
+              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-gradient1"></div>
             </div>
             <span className="text-white text-sm sm:text-lg h3 text-center ">
               {countDownTime?.hours === "01" ? "Hour" : "Hours"}
@@ -131,11 +132,11 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
           {/* Minutes */}
           <div className="flex flex-col gap-2 relative">
             <div className="h-16 w-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
-              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-[#191A24]"></div>
-              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gray">
+              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-gradient1"></div>
+              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gradient1">
                 {countDownTime?.minutes}
               </span>
-              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-[#191A24]"></div>
+              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-gradient1"></div>
             </div>
             <span className="text-white text-sm sm:text-lg h3 text-center capitalize">
               {countDownTime?.minutes === "01" ? "Minute" : "Minutes"}
@@ -145,11 +146,11 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
           {/* Seconds */}
           <div className="flex flex-col gap-2 relative">
             <div className="h-16 w-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
-              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-[#191A24]"></div>
-              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gray">
+              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-gradient1"></div>
+              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gradient1">
                 {countDownTime?.seconds}
               </span>
-              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-[#191A24]"></div>
+              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-gradient1"></div>
             </div>
             <span className="text-white text-sm sm:text-lg h3 text-center capitalize">
               {countDownTime?.seconds === "01" ? "Second" : "Seconds"}
@@ -158,6 +159,8 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
         </div>
       </div>
       </div>
+      </div>
+      
     
   );
 };
