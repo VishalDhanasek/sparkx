@@ -102,56 +102,56 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
         <div className="flex justify-center gap-2 sm:gap-4">
           {/* Days */}
           <div className="flex flex-col gap-2 relative">
-            <div className="h-10 w-10 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
-              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-gradient-to-r from-gradient1 to-gradient2 "></div>
-              <span className="lg:text-4xl sm:text-3xl text-xl h2 text-gray">
+            <div className="h-16 w-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
+              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-[#191A24] "></div>
+              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gray">
                 {countDownTime?.days}
               </span>
-              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-gradient-to-r from-gradient1 to-gradient2 "></div>
+              <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-[#191A24] "></div>
             </div>
-            <span className="text-white text-xs sm:text-lg h3 text-center capitalize">
+            <span className="text-white text-sm sm:text-lg h3 text-center capitalize">
               {countDownTime?.days === "01" ? "Day" : "Days"}
             </span>
           </div>
 
           {/* Hours */}
           <div className="flex flex-col gap-2 relative">
-            <div className="h-10 w-10 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
+            <div className="h-16 w-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
               <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-[#191A24]"></div>
-              <span className="lg:text-4xl sm:text-3xl text-xl h2 text-gray">
+              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gray">
                 {countDownTime?.hours}
               </span>
               <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-[#191A24]"></div>
             </div>
-            <span className="text-white text-xs sm:text-lg h3 text-center ">
+            <span className="text-white text-sm sm:text-lg h3 text-center ">
               {countDownTime?.hours === "01" ? "Hour" : "Hours"}
             </span>
           </div>
 
           {/* Minutes */}
           <div className="flex flex-col gap-2 relative">
-            <div className="h-10 w-10 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
+            <div className="h-16 w-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
               <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-[#191A24]"></div>
-              <span className="lg:text-4xl sm:text-3xl text-xl h2 text-gray">
+              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gray">
                 {countDownTime?.minutes}
               </span>
               <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-[#191A24]"></div>
             </div>
-            <span className="text-white text-xs sm:text-lg h3 text-center capitalize">
+            <span className="text-white text-sm sm:text-lg h3 text-center capitalize">
               {countDownTime?.minutes === "01" ? "Minute" : "Minutes"}
             </span>
           </div>
 
           {/* Seconds */}
           <div className="flex flex-col gap-2 relative">
-            <div className="h-10 w-10 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
+            <div className="h-16 w-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex justify-between items-center bg-white rounded-lg">
               <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 !-left-[3px] rounded-full bg-[#191A24]"></div>
-              <span className="lg:text-4xl sm:text-3xl text-xl h2 text-gray">
+              <span className="lg:text-4xl sm:text-3xl text-3xl h2 text-gray">
                 {countDownTime?.seconds}
               </span>
               <div className="relative h-1.5 w-1.5 sm:h-2 sm:w-2 -right-[3px] rounded-full bg-[#191A24]"></div>
             </div>
-            <span className="text-white text-xs sm:text-lg h3 text-center capitalize">
+            <span className="text-white text-sm sm:text-lg h3 text-center capitalize">
               {countDownTime?.seconds === "01" ? "Second" : "Seconds"}
             </span>
           </div>
