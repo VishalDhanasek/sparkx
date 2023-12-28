@@ -3,6 +3,7 @@ import './css/style.css'
 import { Inter } from 'next/font/google'
 
 import Header from '@/components/ui/header'
+import Header1 from '@/components/ui/header1'
 import Banner from '@/components/banner'
 
 const inter = Inter({
