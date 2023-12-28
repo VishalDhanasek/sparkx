@@ -38,7 +38,7 @@ export default function Hero() {
             <div className="text-white text-center mx-auto flex flex-col sm:flex-row justify-center items-center gap-4 px-4 mt-1 mb-10  text-lg" data-aos="zoom-y-out"><p><time dateTime="01-09-2024">01</time>-<time dateTime="02-09-2024">02 of Sept, 2024</time></p> <svg aria-hidden="true" viewBox="0 0 6 6" className="h-1.5 w-1.5 overflow-visible fill-current stroke-current hidden sm:block"><path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round"></path></svg> <p>Codissia, Coimbatore</p> </div>
         </div>
               
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
+              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center mb-20" data-aos="zoom-y-out" data-aos-delay="300">
                 
                 <div>
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full sm:w-auto sm:ml-4" href="/register">Register Now</a>
