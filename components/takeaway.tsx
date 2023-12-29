@@ -27,7 +27,7 @@ export default function Takeaway() {
               <div className="w-full lg:w-2/5 xl:w-auto px-4 lg:pb-10 mb-10 lg:mb-0">
                 <div className="mx-auto max-w-sm">
                   <div className="flex items-center pb-12 mb-12 ">
-                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center bg-blue-400 rounded-full">
+                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center bg-gradient1 rounded-full">
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-element.svg" alt="" />
                     </div>
                     <div>
@@ -37,7 +37,7 @@ export default function Takeaway() {
                     </div>
                   </div>
                   <div className="flex items-center pb-12 mb-12 ">
-                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center  bg-blue-400 rounded-full">
+                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center  bg-gradient1 rounded-full">
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-hierarchy.svg" alt="" />
                     </div>
                     <div>
@@ -46,7 +46,7 @@ export default function Takeaway() {
                     </div>
                   </div>
                   <div className="flex items-center">
-                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center  bg-blue-400 rounded-full">
+                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center  bg-gradient1 rounded-full">
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-school-bag.svg" alt="" />
                     </div>
                     <div>
@@ -64,7 +64,7 @@ export default function Takeaway() {
               <div className="w-full lg:w-2/5 xl:w-auto px-4 lg:pb-10 ">
                 <div className="mx-auto max-w-sm">
                   <div className="flex items-center pb-12 mb-12">
-                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center  bg-blue-400 rounded-full">
+                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center  bg-gradient1 rounded-full">
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-robot.svg" alt="" />
                     </div>
                     <div>
@@ -73,7 +73,7 @@ export default function Takeaway() {
                     </div>
                   </div>
                   <div className="flex items-center pb-12 mb-12">
-                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center  bg-blue-400 rounded-full">
+                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center  bg-gradient1 rounded-full">
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-cam.svg" alt=""/>
                     </div>
                     <div>
@@ -82,7 +82,7 @@ export default function Takeaway() {
                     </div>
                   </div>
                   <div className="flex items-center">
-                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center  bg-blue-400 rounded-full">
+                    <div className="flex flex-shrink-0 w-15 h-15 mr-6 items-center justify-center  bg-gradient1 rounded-full">
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-flask.svg" alt="" />
                     </div>
                     <div>
