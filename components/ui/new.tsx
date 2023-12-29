@@ -13,9 +13,10 @@ export default function New() {
         <div className="justify-center md:pb-16 flex relative" style={{ zIndex: 2 }}>
           <div className="relative">
             
-            <img src="/features-01.png" width="480" height="183" alt="Logos" style={{ position: 'relative', zIndex: 2 }} />
+            <img src="/1trillion1.png" width="450" height="183" alt="Logos" style={{ position: 'relative', zIndex: 2 }} />
           </div>
         </div>
+        <div className="py-9 mt-0 mb-10"></div>
       </div>
       <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-gradient1/90 to-gradient2/90 rounded-tr-[100px]" style={{ zIndex: 1 }}></div>
     </div>
