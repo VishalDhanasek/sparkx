@@ -10,7 +10,7 @@ export default function Themes() {
   
     return (
 		<div className='relative '>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-20 mb-[150px] bg-white">       
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-20 mb-[90px] bg-white">       
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">SparkX Themes</h2>

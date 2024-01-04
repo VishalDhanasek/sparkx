@@ -11,7 +11,7 @@ export default function Banner123() {
   
   return (
 
-    <section className="max-w-6xl mx-auto px-4 sm:px-6 mt-0 mb-0">
+    <section className="max-w-6xl mx-auto px-4 sm:px-6 -mt-[100px] mb-0">
         <section className="py-24 lg:py-32 bg-white overflow-hidden">
     <div className="container px-4 mx-auto">
       <div className="relative p-12 bg-black overflow-hidden rounded-2xl">

@@ -56,7 +56,7 @@ export default function Takeaway() {
                   </div>
                 </div>
               </div>
-              <div className="w-full lg:w-1/5 xl:w-auto mx-auto px-4 lg:mb-0 text-center">
+              <div className="w-full lg:w-1/5 xl:w-auto mx-auto px-4 mb-12 text-center">
               
 
                 <img className="block mx-auto h-[650px] md:h-80 xl:h-[550px] xl:w-[360px] " src="/trophy.png" alt="" />
