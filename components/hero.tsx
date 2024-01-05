@@ -12,7 +12,7 @@ export default function Hero() {
         muted
         className="min-w-full min-h-full absolute object-cover"
       >
-        <source src="./hero1.mp4" type="video/mp4" />
+        <source src="./hero2.mp4" type="video/mp4" />
       </video>
 
       
