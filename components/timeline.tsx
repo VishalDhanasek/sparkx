@@ -25,7 +25,7 @@ export default function Timeline() {
         <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-24 ">
         <div className="max-w-3xl mx-auto text-center pb-1 md:pb-1">
             <h1 className="h2 mb-4">SparkX Timeline</h1>
-            <p className="text-xl text-gray-600">Whether you're a startup with a groundbreaking vision to life.</p>
+            <p className="text-xl text-gray-600">A Journey through the Timeline of Tech Excellence.</p>
           </div>
             
         
@@ -48,7 +48,7 @@ export default function Timeline() {
                                 <h2 className="h4 ">Idea Submission & Registration</h2>
                             </div>
                           
-                            <p className=" text-l text-gray-600">Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus.</p>
+                            <p className=" text-l text-gray-600">Submit your innovative idea through our streamlined process and register your team to participate in the hackathon.</p>
                         </div>
                         
                       
@@ -61,7 +61,7 @@ export default function Timeline() {
                                 <h2 className="h4 ">Quarter Final</h2>
                             </div>
                           
-                            <p className=" text-l text-gray-600">Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus.</p>
+                            <p className=" text-l text-gray-600">In the Quarter Final stage, top teams are selected to advance to the semi-final round after presenting polished prototypes that judges evaluate.</p>
                         </div>
                         
                      
@@ -74,7 +74,7 @@ export default function Timeline() {
                                 <h2 className="h4 ">Semi Final</h2>
                             </div>
                           
-                            <p className=" text-l text-gray-600">Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus.</p>
+                            <p className=" text-l text-gray-600">The Semi-Final narrows the field to the top finalist teams who will advance to compete in the Final round through rigorous judging.</p>
                         </div>
                         
                         
@@ -87,7 +87,7 @@ export default function Timeline() {
                                 <h2 className="h4 ">Grand Finale</h2>
                             </div>
                           
-                            <p className=" text-l text-gray-600">Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus.</p>
+                            <p className=" text-l text-gray-600">The Grand Finale is the concluding event where finalists demo their innovative prototypes to judges, and winners are announced across all prize categories.</p>
                         </div>
                     </div>
                     

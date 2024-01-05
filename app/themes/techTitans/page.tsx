@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Agri-Tech",
+  title: "Tech Titans",
   description: "Page description",
 };
 
@@ -9,7 +9,7 @@ import Footer from "@/components/ui/footer";
 import Team from "@/components/our-team";
 import Banner1 from "@/components/banner1";
 
-export default function Agri() {
+export default function TechTitans() {
   return (
     <section className="relative">
       <svg
@@ -72,10 +72,10 @@ export default function Agri() {
                 className="items-center mx-auto lg:inline-flex"
                 data-aos="zoom-y-out"
               >
-                <div className="grid grid-cols-1 mt-10 gap-6 lg:grid-cols-2 lg:gap-12">
+                <div className="grid grid-cols-1 mt-10 gap-6 lg:grid-cols-2 lg:gap-6">
                   <div>
                     <div className="relative mb-4 inline-flex text-gradient1 font-semibold">
-                      Theme 1
+                      Theme 3
                       <svg
                         className="fill-indigo-300 absolute top-full w-full"
                         xmlns="http://www.w3.org/2000/svg"
@@ -89,15 +89,17 @@ export default function Agri() {
                       className="text-5xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4"
                       data-aos="zoom-y-out"
                     >
-                      Agri-Tech
+                      Tech Titans Showcase
                     </h2>
                   </div>
                   <div className="lg:ml-auto">
                     <p className="mt-4 text-lg text-gray-600 tracking-tight lg:mt-4">
-                    AgriTech theme challenges innovators to develop solutions that enhance productivity, 
-                    sustainability, and efficiency across the food and agriculture sector. 
-                    This theme welcomes ideas that leverage emerging technologies like AI, robotics,
-                     IoT, and analytics to tackle real-world problems faced by farmers, ranchers, and across agricultural supply chains. 
+                    Tech Titans Showcase's theme highlights cutting-edge innovations leveraging artificial intelligence, 
+                    machine learning, natural language processing, computer vision, and other advanced technologies to 
+                    demonstrate their immense transformative potential across industries and applications. We welcome projects 
+                    pushing boundaries in conversational AI assistants, image recognition systems, predictive data analytics, intelligent robotics, 
+                    bioinformatics, autonomous vehicles, and more. The aim is to highlight AI-driven prototypes that can evolve how businesses operate, transform
+                     industries, and elevate human experiences in our everyday lives.
                     
                     </p>
                   </div>
@@ -110,7 +112,7 @@ export default function Agri() {
             >
               <img
                 className="object-cover object-center w-full bg-gray-300 h-96"
-                src="https://images.pexels.com/photos/442589/pexels-photo-442589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?q=80&w=1896&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt=""
               />
             </div>
@@ -120,80 +122,72 @@ export default function Agri() {
                   <div data-aos="zoom-y-out" data-aos-delay="100">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                        Sustainable Farming
+                      Conversational AI
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Sustainable Farming subtheme challenges innovators to optimise yields and 
-                    farming practices while ensuring sustainability. Participants could build AI systems 
-                    to analyse soils and recommend crops, deploy IoT sensors to monitor crop health and 
-                    irrigation or connect farmers to sustainable techniques. The goal is to increase farmer
-                     incomes while reducing agriculture's environmental impact.
+                    Conversational AI projects can showcase intuitive chatbots, virtual assistants, speech systems, 
+                    and voice interfaces, enabling natural dialogue between humans and machines. 
+                    Innovations can demonstrate capabilities like complex voice interactions, comprehending 
+                    nuanced speech, contextual responses, multimodal integration, novel neural architectures, 
+                    knowledge incorporation.
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="200">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                        Precision Agriculture
+                      Autonomous Systems
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Precision Agriculture subtheme challenges innovators to leverage AI 
-                    and IoT to optimise irrigation, fertilisation, and pest control.  Participants could 
-                    build targeted automated irrigation, nutrient prescription tools, or computer vision-powered 
-                    smart pest management. Such precision innovations can increase farming productivity and efficiency.
+                    Autonomous systems utilising artificial intelligence are rapidly transforming transportation,
+                    manufacturing, and services by enabling independent perception, decision-making, 
+                    and task completion with minimal human input.
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="300">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                      Supply Chain Logistics
+                      Natural Language Processing
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Supply Chain Logistics subtheme aims to optimise agricultural supply 
-                    chains through improved traceability, reduced waste, and enhanced efficiency. 
-                    Innovations could implement blockchain tracking, IoT monitoring, AI forecasting, 
-                    and computer vision food grading to benefit producers, consumers, and sustainability.
+                    Natural language processing techniques like machine reading, sentiment analysis, and 
+                    language generation allow AI systems to understand, interpret, and generate human language.
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="300">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                      Crop Analytics
+                      Cyber Security
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Crop Analytics subtheme calls for solutions that collect and analyse crop data to 
-                    provide actionable insights to farmers. Participants could build sensor networks and 
-                    apply AI techniques like predictive modelling and anomaly detection to this data to 
-                    uncover patterns and trends. The goal is to provide farmers with timely, tailored intelligence 
-                    to inform data-driven management decisions and optimise crop outcomes.
+                    Cyber Security theme motivates innovators to create advanced systems that protect critical data and 
+                    infrastructure from emerging digital threats. The goal is to cultivate revolutionary thinking around 
+                    safeguarding individuals, organisations, and infrastructure against malicious attacks in the digital sphere.
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="500">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                        Agricultural Robotics
+                      IOT 
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Agricultural Robotics subtheme challenges the creation of robotic systems to automate critical
-                     farming tasks like harvesting crops, weeding fields, monitoring plant health, and handling materials.
-                      Participants could design picking robots, weeding arms, crop-scouting drones, and autonomous farm vehicles. 
-                      The goal of applying AI and robotics is to relieve labour, improve efficiency, and enable data-driven automation 
-                      of agricultural processes.
+                    To build connected IoT solutions that integrate physical devices, data, and AI to 
+                    enhance experiences, operations, and insights across homes, cities, healthcare, transportation, and more.
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="600">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                        Alternative Proteins
+                      Clean Energy
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Alternative Proteins track invites disruptive solutions leveraging approaches like plant-based formulations, 
-                    fermentation and cellular agriculture to deliver viable eco-friendly meat analogues matching traditional taste, price and nutrition
+                    Clean Energy theme invites participants to develop innovative solutions
+                    that enable sustainable energy generation, storage, distribution and management to reduce environmental impact.
                     </div>
                   </div>
                 </dl>

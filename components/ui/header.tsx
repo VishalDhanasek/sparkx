@@ -44,28 +44,19 @@ export default function Header() {
 
               <Dropdown children={<>
               <li>
-                <Link href="/themes/agriTech" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Agri-Tech</Link>
+                <Link href="/themes/agriTech" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Agri-Tech Revolution</Link>
               </li>
               <li>
-                  <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Edu-Tech</Link>
+                  <Link href="/themes/manufacturingRev" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Manufacturing Revolution</Link>
               </li> 
               <li>
-                  <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Fin-Tech</Link>
+                  <Link href="/themes/techTitans" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Tech Titans Showcase</Link>
               </li> 
               <li>
-                  <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Health-Tech</Link>
+                  <Link href="/themes/servicesInnovation" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Services Innovation Hub</Link>
               </li> 
               <li>
-                  <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sustainability</Link>
-              </li> 
-              <li>
-                  <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Web 3.0</Link>
-              </li> 
-              <li>
-                  <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">CyberSecurity</Link>
-              </li> 
-              <li>
-                  <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">AI & Robotics</Link>
+                  <Link href="/themes/crossSector" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Cross Sector Collaborations</Link>
               </li> 
               
               </>}  
@@ -73,7 +64,7 @@ export default function Header() {
 
 
               <li>
-                <Link href="/events" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Events</Link>
+                <Link href="#" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Events</Link>
               </li>
               <li>
                 <Link href="#" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Contact Us</Link>

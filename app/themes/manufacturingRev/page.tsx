@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Agri-Tech",
+  title: "Manufacturing Revolution",
   description: "Page description",
 };
 
@@ -9,7 +9,7 @@ import Footer from "@/components/ui/footer";
 import Team from "@/components/our-team";
 import Banner1 from "@/components/banner1";
 
-export default function Agri() {
+export default function Manu() {
   return (
     <section className="relative">
       <svg
@@ -75,7 +75,7 @@ export default function Agri() {
                 <div className="grid grid-cols-1 mt-10 gap-6 lg:grid-cols-2 lg:gap-12">
                   <div>
                     <div className="relative mb-4 inline-flex text-gradient1 font-semibold">
-                      Theme 1
+                      Theme 2
                       <svg
                         className="fill-indigo-300 absolute top-full w-full"
                         xmlns="http://www.w3.org/2000/svg"
@@ -89,16 +89,23 @@ export default function Agri() {
                       className="text-5xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4"
                       data-aos="zoom-y-out"
                     >
-                      Agri-Tech
+                      Manufacturing Revolution
                     </h2>
                   </div>
                   <div className="lg:ml-auto">
                     <p className="mt-4 text-lg text-gray-600 tracking-tight lg:mt-4">
-                    AgriTech theme challenges innovators to develop solutions that enhance productivity, 
-                    sustainability, and efficiency across the food and agriculture sector. 
-                    This theme welcomes ideas that leverage emerging technologies like AI, robotics,
-                     IoT, and analytics to tackle real-world problems faced by farmers, ranchers, and across agricultural supply chains. 
-                    
+                      The manufacturing industry embraces an innovation
+                      revolution across automation, customisation, and
+                      sustainability dimensions driven by emerging technologies.
+                      SparkX 2024 invites student participants to build
+                      solutions addressing next-generation intelligent
+                      factories, resilient supply chains. Key challenges include
+                      leveraging AI and advanced robotics for hyper-customized
+                      output, enabling distributed manufacturing through 3D
+                      printing, optimising planning with predictive data
+                      analytics, designing carbon-neutral smart factories, and
+                      applying IoT and Machine Vision to help proactive
+                      maintenance and quality control.
                     </p>
                   </div>
                 </div>
@@ -110,7 +117,7 @@ export default function Agri() {
             >
               <img
                 className="object-cover object-center w-full bg-gray-300 h-96"
-                src="https://images.pexels.com/photos/442589/pexels-photo-442589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt=""
               />
             </div>
@@ -120,80 +127,61 @@ export default function Agri() {
                   <div data-aos="zoom-y-out" data-aos-delay="100">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                        Sustainable Farming
+                        Intelligent Factories
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Sustainable Farming subtheme challenges innovators to optimise yields and 
-                    farming practices while ensuring sustainability. Participants could build AI systems 
-                    to analyse soils and recommend crops, deploy IoT sensors to monitor crop health and 
-                    irrigation or connect farmers to sustainable techniques. The goal is to increase farmer
-                     incomes while reducing agriculture's environmental impact.
+                      The Intelligent Factories track seeks solutions leveraging
+                      AI, machine learning and data analytics to optimise
+                      production facilities' productivity, quality, and
+                      maintenance. The goal is to build data-driven brains that
+                      enhance the operational performance of next-gen smart
+                      factories and ageing plants.
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="200">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                        Precision Agriculture
+                        Advanced Robotics & Automation
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Precision Agriculture subtheme challenges innovators to leverage AI 
-                    and IoT to optimise irrigation, fertilisation, and pest control.  Participants could 
-                    build targeted automated irrigation, nutrient prescription tools, or computer vision-powered 
-                    smart pest management. Such precision innovations can increase farming productivity and efficiency.
+                      Advanced Robotics & Automation track focuses on
+                      cutting-edge robotic capabilities for manufacturing,
+                      including human-machine collaboration and autonomous
+                      systems. Projects can showcase advanced skills like
+                      natural language processing, innovative gripper designs,
+                      motion planning to enable the next generation of
+                      intelligent and collaborative robots to optimise
+                      manufacturing operations.
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="300">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                      Supply Chain Logistics
+                        Sustainable Manufacturing
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Supply Chain Logistics subtheme aims to optimise agricultural supply 
-                    chains through improved traceability, reduced waste, and enhanced efficiency. 
-                    Innovations could implement blockchain tracking, IoT monitoring, AI forecasting, 
-                    and computer vision food grading to benefit producers, consumers, and sustainability.
+                      The Sustainable Manufacturing track seeks green
+                      innovations to embed environmental sustainability across
+                      production and distribution operations.
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="300">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                      Crop Analytics
+                        Mass Personalization
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Crop Analytics subtheme calls for solutions that collect and analyse crop data to 
-                    provide actionable insights to farmers. Participants could build sensor networks and 
-                    apply AI techniques like predictive modelling and anomaly detection to this data to 
-                    uncover patterns and trends. The goal is to provide farmers with timely, tailored intelligence 
-                    to inform data-driven management decisions and optimise crop outcomes.
-                    </div>
-                  </div>
-                  <div data-aos="zoom-y-out" data-aos-delay="500">
-                    <div>
-                      <p className="text-lg font-bold leading-6 text-black">
-                        Agricultural Robotics
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                    The Agricultural Robotics subtheme challenges the creation of robotic systems to automate critical
-                     farming tasks like harvesting crops, weeding fields, monitoring plant health, and handling materials.
-                      Participants could design picking robots, weeding arms, crop-scouting drones, and autonomous farm vehicles. 
-                      The goal of applying AI and robotics is to relieve labour, improve efficiency, and enable data-driven automation 
-                      of agricultural processes.
-                    </div>
-                  </div>
-                  <div data-aos="zoom-y-out" data-aos-delay="600">
-                    <div>
-                      <p className="text-lg font-bold leading-6 text-black">
-                        Alternative Proteins
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                    The Alternative Proteins track invites disruptive solutions leveraging approaches like plant-based formulations, 
-                    fermentation and cellular agriculture to deliver viable eco-friendly meat analogues matching traditional taste, price and nutrition
+                      The Mass Personalization track focuses on innovations that
+                      enable the on-demand production of customised products at
+                      scale. Potential solutions can showcase technologies like
+                      3D printing, modular product families, reconfigurable
+                      production lines, and other flexible systems that allow
+                      manufacturers to efficiently deliver personalised products
+                      tailored to individual customer needs and specifications.
                     </div>
                   </div>
                 </dl>

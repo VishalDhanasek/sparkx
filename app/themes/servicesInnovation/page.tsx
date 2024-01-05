@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Agri-Tech",
+  title: "Services Innovation Hub",
   description: "Page description",
 };
 
@@ -9,7 +9,7 @@ import Footer from "@/components/ui/footer";
 import Team from "@/components/our-team";
 import Banner1 from "@/components/banner1";
 
-export default function Agri() {
+export default function ServicesInnovation() {
   return (
     <section className="relative">
       <svg
@@ -75,7 +75,7 @@ export default function Agri() {
                 <div className="grid grid-cols-1 mt-10 gap-6 lg:grid-cols-2 lg:gap-12">
                   <div>
                     <div className="relative mb-4 inline-flex text-gradient1 font-semibold">
-                      Theme 1
+                      Theme 4
                       <svg
                         className="fill-indigo-300 absolute top-full w-full"
                         xmlns="http://www.w3.org/2000/svg"
@@ -89,15 +89,17 @@ export default function Agri() {
                       className="text-5xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4"
                       data-aos="zoom-y-out"
                     >
-                      Agri-Tech
+                      Services Innovation Hub 
                     </h2>
                   </div>
                   <div className="lg:ml-auto">
                     <p className="mt-4 text-lg text-gray-600 tracking-tight lg:mt-4">
-                    AgriTech theme challenges innovators to develop solutions that enhance productivity, 
-                    sustainability, and efficiency across the food and agriculture sector. 
-                    This theme welcomes ideas that leverage emerging technologies like AI, robotics,
-                     IoT, and analytics to tackle real-world problems faced by farmers, ranchers, and across agricultural supply chains. 
+                    The service sector spanning industries like retail, hospitality, healthcare, and education is a 
+                    vital driver of global economic development and employment. However, there are still many unsolved 
+                    challenges and opportunities to enhance access, and efficiency across modern service delivery models. 
+                    The Service Incubation Hub track aims to encourage student innovators 
+                     to reimagine next-generation services by thoughtfully leveraging technologies like artificial intelligence, 
+                     intelligent automation, etc.
                     
                     </p>
                   </div>
@@ -110,7 +112,7 @@ export default function Agri() {
             >
               <img
                 className="object-cover object-center w-full bg-gray-300 h-96"
-                src="https://images.pexels.com/photos/442589/pexels-photo-442589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="https://images.pexels.com/photos/8728560/pexels-photo-8728560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt=""
               />
             </div>
@@ -120,82 +122,60 @@ export default function Agri() {
                   <div data-aos="zoom-y-out" data-aos-delay="100">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                        Sustainable Farming
+                      Intelligent Retail
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Sustainable Farming subtheme challenges innovators to optimise yields and 
-                    farming practices while ensuring sustainability. Participants could build AI systems 
-                    to analyse soils and recommend crops, deploy IoT sensors to monitor crop health and 
-                    irrigation or connect farmers to sustainable techniques. The goal is to increase farmer
-                     incomes while reducing agriculture's environmental impact.
+                    The Intelligent Retail sub-theme focuses on leveraging artificial intelligence, machine learning, 
+                    automation and data analytics to radically transform physical and digital commerce experiences. This 
+                    encompasses innovations across hyper-personalized promotions, frictionless payment systems, efficient 
+                    inventory management and speedy last-mile delivery by predicting consumer needs and optimizing retail 
+                    operations from end-to-end. 
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="200">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                        Precision Agriculture
+                      Predictive Healthcare
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Precision Agriculture subtheme challenges innovators to leverage AI 
-                    and IoT to optimise irrigation, fertilisation, and pest control.  Participants could 
-                    build targeted automated irrigation, nutrient prescription tools, or computer vision-powered 
-                    smart pest management. Such precision innovations can increase farming productivity and efficiency.
+                    Leverages data and AI for improved diagnostics and personalized care. Seeks to make quality healthcare more
+                     preventative, accessible, and affordable. Involves solutions like digital therapeutics tailored to genetics, 
+                     sensors enabling telemedicine, and hospital flow optimization. Aim is predicting and shaping health outcomes 
+                     through data insights and intelligent systems.
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="300">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                      Supply Chain Logistics
+                      Immersive Learning
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Supply Chain Logistics subtheme aims to optimise agricultural supply 
-                    chains through improved traceability, reduced waste, and enhanced efficiency. 
-                    Innovations could implement blockchain tracking, IoT monitoring, AI forecasting, 
-                    and computer vision food grading to benefit producers, consumers, and sustainability.
+                    The Immersive Learning theme aims to reimagine education and training by leveraging
+                     extended reality technologies like virtual and augmented reality. The goal is to build highly engaging,
+                      pedagogically sound learning experiences that leverage immersive simulations, intelligent content recommendation engines,
+                       and gamification elements to maximize engagement and outcomes. Participants could develop VR field trips that transport 
+                       students to any time and place, or use game mechanics and scoring to motivate learning etc
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="300">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                      Crop Analytics
+                      Sustainable Tourism
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Crop Analytics subtheme calls for solutions that collect and analyse crop data to 
-                    provide actionable insights to farmers. Participants could build sensor networks and 
-                    apply AI techniques like predictive modelling and anomaly detection to this data to 
-                    uncover patterns and trends. The goal is to provide farmers with timely, tailored intelligence 
-                    to inform data-driven management decisions and optimise crop outcomes.
+                    The Sustainable Tourism theme challenges creating solutions to promote responsible practices in the tourism industry. Participants 
+                    could build AI-powered itinerary planners that optimize routes and transportation for minimal environmental impact, AR/VR cultural 
+                    heritage experiences that support preservation. The
+                     goal is to balance tourism growth with conservation, community inclusion, and authenticity. Innovations from this theme could
+                      provide the insights needed to make sustainable tourism an achievable reality globally.
                     </div>
                   </div>
-                  <div data-aos="zoom-y-out" data-aos-delay="500">
-                    <div>
-                      <p className="text-lg font-bold leading-6 text-black">
-                        Agricultural Robotics
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                    The Agricultural Robotics subtheme challenges the creation of robotic systems to automate critical
-                     farming tasks like harvesting crops, weeding fields, monitoring plant health, and handling materials.
-                      Participants could design picking robots, weeding arms, crop-scouting drones, and autonomous farm vehicles. 
-                      The goal of applying AI and robotics is to relieve labour, improve efficiency, and enable data-driven automation 
-                      of agricultural processes.
-                    </div>
-                  </div>
-                  <div data-aos="zoom-y-out" data-aos-delay="600">
-                    <div>
-                      <p className="text-lg font-bold leading-6 text-black">
-                        Alternative Proteins
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                    The Alternative Proteins track invites disruptive solutions leveraging approaches like plant-based formulations, 
-                    fermentation and cellular agriculture to deliver viable eco-friendly meat analogues matching traditional taste, price and nutrition
-                    </div>
-                  </div>
+                  
+                  
                 </dl>
               </div>
             </div>

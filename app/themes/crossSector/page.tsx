@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Agri-Tech",
+  title: "Cross Sector",
   description: "Page description",
 };
 
@@ -75,7 +75,7 @@ export default function Agri() {
                 <div className="grid grid-cols-1 mt-10 gap-6 lg:grid-cols-2 lg:gap-12">
                   <div>
                     <div className="relative mb-4 inline-flex text-gradient1 font-semibold">
-                      Theme 1
+                      Theme 5
                       <svg
                         className="fill-indigo-300 absolute top-full w-full"
                         xmlns="http://www.w3.org/2000/svg"
@@ -89,15 +89,15 @@ export default function Agri() {
                       className="text-5xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4"
                       data-aos="zoom-y-out"
                     >
-                      Agri-Tech
+                      Cross Sector Collaborations
                     </h2>
                   </div>
                   <div className="lg:ml-auto">
                     <p className="mt-4 text-lg text-gray-600 tracking-tight lg:mt-4">
-                    AgriTech theme challenges innovators to develop solutions that enhance productivity, 
-                    sustainability, and efficiency across the food and agriculture sector. 
-                    This theme welcomes ideas that leverage emerging technologies like AI, robotics,
-                     IoT, and analytics to tackle real-world problems faced by farmers, ranchers, and across agricultural supply chains. 
+                    The Cross-Sector collaboration theme seeks to drive unconventional thinking by synthesising diverse 
+                    industry perspectives. It focuses on building integrated solutions that blend expertise from two domains 
+                    to tackle challenges intersecting both sectors. The goal is to showcase innovations not possible within traditional 
+                    silos via this multidisciplinary cooperation. We encourage hacking solutions through an interdisciplinary lens.
                     
                     </p>
                   </div>
@@ -110,7 +110,7 @@ export default function Agri() {
             >
               <img
                 className="object-cover object-center w-full bg-gray-300 h-96"
-                src="https://images.pexels.com/photos/442589/pexels-photo-442589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="https://www.itu.int/en/ITU-D/ICT-Applications/PublishingImages/Cross-Sector-Other-Initiatives/header-page-cross-sector-other-initiatives.jpg"
                 alt=""
               />
             </div>
@@ -120,82 +120,48 @@ export default function Agri() {
                   <div data-aos="zoom-y-out" data-aos-delay="100">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                        Sustainable Farming
+                      HealthTech + FinTech sub-theme
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Sustainable Farming subtheme challenges innovators to optimise yields and 
-                    farming practices while ensuring sustainability. Participants could build AI systems 
-                    to analyse soils and recommend crops, deploy IoT sensors to monitor crop health and 
-                    irrigation or connect farmers to sustainable techniques. The goal is to increase farmer
-                     incomes while reducing agriculture's environmental impact.
+                    The HealthTech + FinTech track seeks collaborative innovations that bridge expertise across 
+                    healthcare and financial services to address significant challenges intersecting both domains. 
+                    This could involve solutions focused on improving insurance claim processing, patient payment systems, 
+                    securing medical records,and more. The goal is to showcase integrated platforms 
+                    that fuse health and finance insights for enhanced services.
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="200">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                        Precision Agriculture
+                      Industry 4.0 + Sustainability
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Precision Agriculture subtheme challenges innovators to leverage AI 
-                    and IoT to optimise irrigation, fertilisation, and pest control.  Participants could 
-                    build targeted automated irrigation, nutrient prescription tools, or computer vision-powered 
-                    smart pest management. Such precision innovations can increase farming productivity and efficiency.
+                    The Industry 4.0 + Sustainability track connects manufacturing innovations in IoT, AI and other emerging 
+                    technologies with sustainability goals. It aims to demonstrate circular production ecosystems, renewable 
+                    energy-powered factories, and transparent supply chains. Solutions would fuse high-tech advances in sensors, 
+                    automation, and data analytics to enable closed-loop processes and
+                     promote responsible consumption across manufacturing operations.
                     </div>
                   </div>
                   <div data-aos="zoom-y-out" data-aos-delay="300">
                     <div>
                       <p className="text-lg font-bold leading-6 text-black">
-                      Supply Chain Logistics
+                      Media & Entertainment + Smart Cities
                       </p>
                     </div>
                     <div className="mt-2 text-base text-gray-500">
-                    The Supply Chain Logistics subtheme aims to optimise agricultural supply 
-                    chains through improved traceability, reduced waste, and enhanced efficiency. 
-                    Innovations could implement blockchain tracking, IoT monitoring, AI forecasting, 
-                    and computer vision food grading to benefit producers, consumers, and sustainability.
+                    The Media & Entertainment + Smart Cities track focuses on blending creative media skills with civic design to 
+                    shape future cities' art, culture, and public spaces. This could involve solutions leveraging extended reality, 
+                    programmable flexible venues, data-driven event planning optimised for accessibility, and participatory art installations 
+                    to foster communal connections. The goal is to demonstrate how creative expression and thoughtful urban planning can
+                     promote quality of life.
                     </div>
                   </div>
-                  <div data-aos="zoom-y-out" data-aos-delay="300">
-                    <div>
-                      <p className="text-lg font-bold leading-6 text-black">
-                      Crop Analytics
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                    The Crop Analytics subtheme calls for solutions that collect and analyse crop data to 
-                    provide actionable insights to farmers. Participants could build sensor networks and 
-                    apply AI techniques like predictive modelling and anomaly detection to this data to 
-                    uncover patterns and trends. The goal is to provide farmers with timely, tailored intelligence 
-                    to inform data-driven management decisions and optimise crop outcomes.
-                    </div>
-                  </div>
-                  <div data-aos="zoom-y-out" data-aos-delay="500">
-                    <div>
-                      <p className="text-lg font-bold leading-6 text-black">
-                        Agricultural Robotics
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                    The Agricultural Robotics subtheme challenges the creation of robotic systems to automate critical
-                     farming tasks like harvesting crops, weeding fields, monitoring plant health, and handling materials.
-                      Participants could design picking robots, weeding arms, crop-scouting drones, and autonomous farm vehicles. 
-                      The goal of applying AI and robotics is to relieve labour, improve efficiency, and enable data-driven automation 
-                      of agricultural processes.
-                    </div>
-                  </div>
-                  <div data-aos="zoom-y-out" data-aos-delay="600">
-                    <div>
-                      <p className="text-lg font-bold leading-6 text-black">
-                        Alternative Proteins
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                    The Alternative Proteins track invites disruptive solutions leveraging approaches like plant-based formulations, 
-                    fermentation and cellular agriculture to deliver viable eco-friendly meat analogues matching traditional taste, price and nutrition
-                    </div>
-                  </div>
+                 
+                  
+                  
                 </dl>
               </div>
             </div>

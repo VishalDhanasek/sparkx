@@ -39,7 +39,7 @@ export default function Team(){
                     <li>
                       <div className="space-y-4">
                         <div className="aspect-[3/2] overflow-hidden ">
-                          <img className="object-cover w-full h-full transition-transform duration-300 transform-gpu hover:scale-110" src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""/>
+                          <img className="object-cover w-full h-full transition-transform duration-300 transform-gpu hover:scale-110" src="./images/Elango.jpg" alt=""/>
                         </div>
                         <div className="inline-flex items-start justify-between w-full">
                           <div className="space-y-1">
@@ -66,7 +66,7 @@ export default function Team(){
                     <li>
                       <div className="space-y-4">
                         <div className="aspect-[3/2] overflow-hidden">
-                          <img className="object-cover w-full h-full transition-transform duration-300 transform-gpu hover:scale-110" src="https://images.pexels.com/photos/3777946/pexels-photo-3777946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""/>
+                          <img className="object-cover w-full h-full transition-transform duration-300 transform-gpu hover:scale-110" src="./images/nagaraj.jpg" alt=""/>
                         </div>
                         <div className="inline-flex items-start justify-between w-full">
                           <div className="space-y-1">
@@ -174,7 +174,7 @@ export default function Team(){
                     <li>
                       <div className="space-y-4">
                         <div className="aspect-[3/2] overflow-hidden">
-                          <img className="object-cover w-full h-full transition-transform duration-300 transform-gpu hover:scale-110" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt=""/>
+                          <img className="object-cover w-full h-full transition-transform duration-300 transform-gpu hover:scale-110" src="./images/vish.jpg" alt=""/>
                         </div>
                         <div className="inline-flex items-start justify-between w-full">
                           <div className="space-y-1">

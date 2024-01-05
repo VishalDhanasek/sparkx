@@ -20,7 +20,7 @@ export default function Takeaway() {
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             
             <h2 className="h2 mb-4">SparkX Takeaways</h2>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out">Cultivating Success: Key Takeaways to Propel Your Journey!</p>
+            <p className="text-xl text-gray-600" data-aos="zoom-y-out">Innovate | Collaborate | Accelerate</p>
           </div>
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-wrap -mx-4 items-center">
@@ -31,8 +31,8 @@ export default function Takeaway() {
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-element.svg" alt="" />
                     </div>
                     <div>
-                    <h4 className="text-xl h4 ">Generous Prize Pool </h4>
-                    <span className="text-sm text-gray-400">Substantial prize pool of 4 Lakhs</span>
+                    <h4 className="text-xl h4 ">Innovation </h4>
+                    <span className="text-sm text-gray-400">Sparkx facilitates rapid innovation, <br></br>creating solutions to industry problems <br></br> and using emerging tech to build <br></br> unique prototypes and business models. </span>
                       
                     </div>
                   </div>
@@ -41,8 +41,8 @@ export default function Takeaway() {
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-hierarchy.svg" alt="" />
                     </div>
                     <div>
-                    <h4 className="text-xl h4 ">Startup Accelerator<br></br> Support</h4>
-                      <span className="text-sm text-gray-400">Exclusive access to startup  <br></br> accelerator support for<br></br>  winning teams,</span>
+                    <h4 className="text-xl h4 ">Collaboration</h4>
+                      <span className="text-sm text-gray-400">Hackathons facilitate collaborative <br></br>innovation through student teamwork <br></br> augmented by mentor and <br></br>sponsor guidance.</span>
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -50,8 +50,8 @@ export default function Takeaway() {
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-school-bag.svg" alt="" />
                     </div>
                     <div>
-                    <h4 className="text-xl h4 ">Networking Opportunities</h4>
-                      <span className="text-sm text-gray-400">Connect with industry experts <br></br> & mentors</span>
+                    <h4 className="text-xl h4 ">Problem-Solving</h4>
+                      <span className="text-sm text-gray-400">participants to showcase <br></br>critical thinking and technical skills <br></br>by innovating solutions to <br></br>real-world industry problems.</span>
                     </div>
                   </div>
                 </div>
@@ -68,8 +68,8 @@ export default function Takeaway() {
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-robot.svg" alt="" />
                     </div>
                     <div>
-                      <h3 className="text-xl h4">Skill Enhancement <br></br>Workshops</h3>
-                      <span className="text-sm text-gray-400">Participate in skill enhancement <br></br> workshops  conducted by <br></br>industry professionals,</span>
+                      <h3 className="text-xl h4">Emerging Technology</h3>
+                      <span className="text-sm text-gray-400">Offer students practical exposure <br></br>to state-of-the-art technologies<br></br> to accelerate their tech skillsets.</span>
                     </div>
                   </div>
                   <div className="flex items-center pb-12 mb-12">
@@ -77,8 +77,8 @@ export default function Takeaway() {
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-cam.svg" alt=""/>
                     </div>
                     <div>
-                      <h3 className="text-xl h4">Showcase Your Talent</h3>
-                      <span className="text-sm text-gray-400">Showcase your talent to a wider <br></br> audience and receive recognition </span>
+                      <h3 className="text-xl h4">Career Acceleration</h3>
+                      <span className="text-sm text-gray-400">Accelerates career by enabling <br></br>participants to build in-demand <br></br>skills, impress recruiters, and<br></br> access exclusive job and<br></br> internship opportunities. </span>
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -86,8 +86,8 @@ export default function Takeaway() {
                       <img src="https://shuffle.dev/saturn-assets/images/features/icon-flask.svg" alt="" />
                     </div>
                     <div>
-                      <h3 className="text-xl h4">Unlimited Support</h3>
-                      <span className="text-sm text-gray-400">No worries, we are here to support</span>
+                      <h3 className="text-xl h4">Hands-On Learning</h3>
+                      <span className="text-sm text-gray-400">SparkX deliverS hands-on experiential<br></br> learning that fosters the development <br></br> of excellent technology skills and <br></br>real-world problem-solving abilities.</span>
                     </div>
                   </div>
                 </div>

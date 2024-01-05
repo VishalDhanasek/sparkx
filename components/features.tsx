@@ -40,7 +40,7 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-1 md:pb-1">
             <h1 className="h2 mb-4">Why attend SparkX?</h1>
-            <p className="text-xl text-gray-600">Whether you're a startup with a groundbreaking concept or an established business seeking to modernize, our team of talented developers is ready to bring your vision to life.</p>
+            <p className="text-xl text-gray-600">Build in-demand skills, expand your professional network, showcase talent to win big prizes, and gain real-world experience developing innovative solutions at SparkX 2024.</p>
           </div>
 
           <Bento1 />

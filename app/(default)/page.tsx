@@ -21,6 +21,7 @@ import Bento1 from '@/components/bento2'
 import New1 from '@/components/ui/new1'
 import Organizers from '@/components/organizers'
 import Timer3 from '@/components/timer'
+import Faq from '@/components/faq'
 
 
 
@@ -39,6 +40,7 @@ export default function Home() {
       <Testimonials />
       
       <Timeline/>
+      <Faq/>
       <Takeaway/>
       <Banner123/>
       

@@ -31,21 +31,21 @@ export const metadata = {
           
         
 
-        <div className="container mx-auto">
+        <div className="container mx-auto ">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
+                      src="./images/3.JPG"
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                      src="./images/2.jpg"
                       alt=""
                       className="w-full rounded-2xl "
                     />
@@ -54,7 +54,14 @@ export const metadata = {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
                     <img
-                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
+                      src="./images/4.JPG"
+                      alt=""
+                      className="w-full rounded-2xl "
+                    />
+                  </div>
+                  <div className="py-3 sm:py-4">
+                    <img
+                      src="./images/5.jpeg"
                       alt=""
                       className="w-full rounded-2xl "
                     />
@@ -76,19 +83,19 @@ export const metadata = {
                         </div>
                 <h2 className="h2 mb-9 mt-2 " data-aos="zoom-y-out">Our Story</h2>
                 <p className="mb-7 text-lg text-gray-600">
-                Welcome to the collaborative hackathon brought to you by the dynamic alliance of three visionary companies
-                 – Innovation Geeks, StartNet, and Growbinar. Together, we are igniting the spark of innovation, fostering 
-                 entrepreneurial spirit, and creating a platform where groundbreaking ideas come to life.
+                SparkX 2024 is Tamil Nadu's largest inter-collegiate hackathon, hosting 5,000 students from across the state to innovate solutions in Manufacturing Revolution, 
+                Tech Titans Showcase, AgriTech, Cross-Sector Collaborations, and Future of Work on August 22-23 in Coimbatore. 
                 </p>
                 <p className="mb-7 text-lg text-gray-600">
-                  A domain name is one of the first steps to establishing your
-                  brand. Secure a consistent brand image with a domain name that
-                  matches your business.
+                Participants can benefit from expert guidance, access 
+                cutting-edge cloud platforms and kits from sponsors, and showcase their prototypes for a chance to win cash prizes, internships, and licensing deals. The 10-week hackathon
+                 concludes with a grand demo day and awards ceremony attended by tech CEOs and celebrity judges. Interested students must register as a team by April 15, 2024.
                 </p>
-                <p className="mb-0 text-lg text-gray-600">
-                  A domain name is one of the first steps to establishing your
-                  brand. Secure a consistent brand image with a domain name that
-                  matches your business.
+                <p className="mb-7 text-lg text-gray-600">
+                SparkX's mission is to nurture a culture of innovation, cultivate ideas, and translate these ideas into solutions 
+                for real-world problems by catalysing the student community. SparkX has ambitions to take the 
+                 platform global by 2025 as Asia's most aspirational and large-scale hackathon that draws the builders of tomorrow. Register to join us now if you feel the
+                  spark and hunger to build change using technology!
                 </p>
               </div>
             </div>
@@ -99,28 +106,51 @@ export const metadata = {
       {/* ====== Brands Section Start */}
 
       
-        <div className="container mx-auto">
-          <div className="flex flex-wrap -mx-4" data-aos="zoom-y-out">
-            <div className="w-full px-4">
-              <div className="flex flex-wrap items-center justify-center">
-              <a href="https://www.innovationgeeks.in/" className="mx-4 flex w-[150px] items-center justify-center  2xl:w-[180px] mt-5 mb-5">
-                <img src="/ig.png" alt="brand" className="w-full h-10" />
-              </a>
-              <a href="#" className="mx-0 flex w-[250px] items-center justify-center 2xl:w-[180px] mb-5  ">
-                <img src="/x.png" alt="brand" className="w-10 h-10" />
-              </a>
-              <a href="https://startnet.in/" className="mx-4 flex w-[150px] items-center justify-center mb-5 2xl:w-[180px]">
-                <img src="startnet.png" alt="brand" className="w-full h-full" />
-              </a>
-              <a href="#" className="mx-0 flex w-[250px] items-center justify-center mb-5  ">
-                <img src="/x.png" alt="brand" className="w-10 h-10" />
-              </a>
-              <a href="#" className="mx-4 flex w-[150px] items-center justify-center mb-5 2xl:w-[180px]">
-                <img src="/growbinar.png" alt="brand" className="w-full h-full" />
-              </a>
-              </div>
-            </div>
+        <div className="container mx-auto -mb-[90px] -mt-[40px]">
+        <div className="pt-32 pb-12 md:pt-[60px]  content-center">
+     <div className="max-w-6xl mx-auto text-center mb-5">
+            <h2 className="h2 text-4xl">Organizers</h2>
+            
           </div>
+
+
+{/* Items */}
+<div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-4">
+
+
+{/* Item */}
+<div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+  <img className="max-w-full fill-current text-gray-400" src="/startnet.png" width="144" height="24">
+    
+  </img>
+</div>
+
+{/* Item */}
+<div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+  <img className="max-w-full fill-current text-gray-400" src="/growbinar.png" width="194" height="24">
+    
+  </img>
+</div>
+
+
+{/* Item */}
+<div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+  <img className="max-w-full fill-current text-gray-400" src="/startuptn.png" width="194" height="24">
+    
+  </img>
+</div>
+
+{/* Item */}
+<div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
+  <img className="max-w-full fill-current text-gray-400" src="/dreamtn.png" width="114" height="14">
+    
+  </img>
+</div>
+
+
+</div>
+
+        </div>
         </div>
      
       {/* ====== Brands Section End */}
