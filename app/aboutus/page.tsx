@@ -84,7 +84,7 @@ export const metadata = {
                 <h2 className="h2 mb-9 mt-2 " data-aos="zoom-y-out">Our Story</h2>
                 <p className="mb-7 text-lg text-gray-600">
                 SparkX 2024 is Tamil Nadu's largest inter-collegiate hackathon, hosting 5,000 students from across the state to innovate solutions in Manufacturing Revolution, 
-                Tech Titans Showcase, AgriTech, Cross-Sector Collaborations, and Future of Work on August 22-23 in Coimbatore. 
+                Tech Titans Showcase, AgriTech, Cross-Sector Collaborations, and Future of Work on September 6 & 7 in Coimbatore. 
                 </p>
                 <p className="mb-7 text-lg text-gray-600">
                 Participants can benefit from expert guidance, access 
