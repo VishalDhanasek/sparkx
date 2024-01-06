@@ -19,7 +19,7 @@ export default function Register() {
             </h2>
             <Link
               href="/register/participants/"
-              className="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full"
+              className="btn-sm text-white bg-gradient1 hover:bg-gradient1 w-full"
             >
               <span>Start Registration</span>
             </Link>
@@ -31,7 +31,7 @@ export default function Register() {
             </h2>
             <Link
               href="/register/mentor"
-              className="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full"
+              className="btn-sm text-white bg-gradient1 hover:bg-gradient1 w-full"
             >
               <span>Start Registration</span>
             </Link>
