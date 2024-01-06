@@ -13,7 +13,7 @@ export default function Hero() {
         className="min-w-full min-h-full absolute object-cover"
       >
         <source
-          src="https://drive.google.com/uc?id=1NticKJH8ZyBFeyyrNOQ2lAr2-W_0oyWv"
+          src="./hero2.mp4"
           type="video/mp4"
         />
       </video>

@@ -2,7 +2,7 @@ export const metadata = {
     title: 'Bill Smart',
     description: 'Page description',
   }
-  
+
   import Link from 'next/link'
   import Image from 'next/image';
   import Footer from '@/components/ui/footer';
@@ -10,7 +10,7 @@ export const metadata = {
   import Banner1 from '@/components/banner1';
   import FeaturesBlocks from '@/components/features-blocks'
 
-  
+
   export default function BillSmart() {
     return (
       <section className="relative">
@@ -69,7 +69,7 @@ export const metadata = {
                 </div>
             </div>
         </div>
-        
+
         <div className="pt-12 md:pt-20 md:pt-40" data-aos="zoom-y-out">
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -149,26 +149,25 @@ export const metadata = {
   </div>
 
 
-          
 
 
 
 
 
 
-          
+
+
         </div>
-          
-  
+
+
           </div>
 
-          
 
-          
+
+
         </div>
-        
+
 
       </section>
     )
   }
-  

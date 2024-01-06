@@ -38,12 +38,40 @@ export default function Header1() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             <ul className={`flex grow justify-end flex-wrap items-center `}>
+
+            <li>
+                <Link
+                  href="/"
+                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
+                >
+                  Events
+                </Link>
+              </li>
+
               <li>
                 <Link
                   href="/aboutus"
                   className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
                 >
                   About Us
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/mentors"
+                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
+                >
+                  Mentors
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="#"
+                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
+                >
+                  Partners
                 </Link>
               </li>
 
@@ -95,14 +123,7 @@ export default function Header1() {
                 title={"Themes"}
               />
 
-              <li>
-                <Link
-                  href="#"
-                  className={`font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out `}
-                >
-                  Events
-                </Link>
-              </li>
+
               <li>
                 <Link
                   href="#"

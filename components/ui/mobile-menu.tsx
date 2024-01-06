@@ -66,10 +66,19 @@ export default function MobileMenu() {
         >
           <ul className="px-5 py-2 divide-y">
           <li>
+              <Link href="/" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Event</Link>
+            </li>
+          <li>
               <Link href="/aboutus" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>About Us</Link>
             </li>
-            <li> 
-              
+            <li>
+              <Link href="/mentors" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Mentors</Link>
+            </li>
+            <li>
+              <Link href="#" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Partners</Link>
+            </li>
+            <li>
+
               <ul className="px-5 py-2">
               <Link href="#" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Themes</Link>
               <li>
@@ -89,14 +98,12 @@ export default function MobileMenu() {
               </li>
               </ul>
             </li>
-            <li>
-              <Link href="#" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Events</Link>
-            </li>
+
             <li>
               <Link href="#" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Contact Us</Link>
             </li>
 
-            
+
             <li>
               <Link href="#" className="btn-sm text-white bg-gradient1 w-full my-2" onClick={() => setMobileNavOpen(false)}>
                 <span>Register</span>
@@ -112,7 +119,7 @@ export default function MobileMenu() {
                   </svg>
               </Link>
             </li>
-          </ul>          
+          </ul>
         </Transition>
       </div>
     </div>
