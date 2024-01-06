@@ -1,4 +1,5 @@
 import Faq from "@/components/faq";
+import Link from "next/link";
 
 export const metadata = {
   title: "Mentors",
@@ -14,22 +15,22 @@ export default function Mentors() {
     {
       title: "What is the expected time commitment?",
       text: "We anticipate mentors commit to 8-10 hours across the 2-month hackathon timeline. This would involve an initial kick-off, multiple touchpoint sessions with an assigned student team and concluding with the final project demos.",
-      active: true,
+      active: false,
     },
     {
       title: "How are mentors matched to student teams?",
       text: "Students outline their areas of interest and skills when applying. Mentors also indicate their expertise domains in the application. Our program committee strategically matches mentors to teams based on mutual areas to enable practical guidance aligned with mentor strengths.",
-      active: true,
+      active: false,
     },
     {
       title: "What format do the mentorship sessions take?",
       text: "Teams can meet their assigned mentors virtually over video calls or in person if attending onsite for parts of the hackathon. Specific touchpoints like the kick-off and finals are in-person events. Additional check-ins can be organised either way based on mentor location and availability.",
-      active: true,
+      active: false,
     },
     {
       title: "Are travel expenses covered for mentors?",
       text: "We do not sponsor flight and accommodation for out-of-town mentors to attend the in-person portions of the hackathon; travel allowance is outlined to mentors who may need sponsorship before applying.",
-      active: true,
+      active: false,
     },
   ];
   return (
@@ -171,6 +172,25 @@ export default function Mentors() {
               </p>
             </div>
           </div>
+        </div>
+
+        <div className="text-center my-10">
+          <Link
+            href="/register/mentor"
+            className="btn-sm text-white bg-gradient1 ml-3"
+          >
+            <span>Register as Mentor</span>
+            <svg
+              className="w-3 h-3 fill-current text-white shrink-0 ml-2 -mr-1"
+              viewBox="0 0 12 12"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
+                fillRule="nonzero"
+              />
+            </svg>
+          </Link>
         </div>
 
         <Faq faqs={faqs} />
