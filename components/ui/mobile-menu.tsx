@@ -75,7 +75,7 @@ export default function MobileMenu() {
               <Link href="/mentors" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Mentors</Link>
             </li>
             <li>
-              <Link href="#" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Partners</Link>
+              <Link href="/partners" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Partners</Link>
             </li>
             <li>
 
@@ -100,7 +100,7 @@ export default function MobileMenu() {
             </li>
 
             <li>
-              <Link href="#" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Contact Us</Link>
+              <Link href="/contactus" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Contact Us</Link>
             </li>
 
 

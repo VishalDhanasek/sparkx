@@ -52,7 +52,7 @@ export default function Header() {
               </li>
 
               <li>
-                <Link href="#" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Partners</Link>
+                <Link href="/partners" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Partners</Link>
               </li>
 
               <Dropdown children={<>
@@ -78,7 +78,7 @@ export default function Header() {
 
 
               <li>
-                <Link href="#" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Contact Us</Link>
+                <Link href="/contactus" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Contact Us</Link>
               </li>
               </ul>
 

@@ -68,7 +68,7 @@ export default function Header1() {
 
               <li>
                 <Link
-                  href="#"
+                  href="/partners"
                   className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
                 >
                   Partners
@@ -126,7 +126,7 @@ export default function Header1() {
 
               <li>
                 <Link
-                  href="#"
+                  href="/contactus"
                   className={`font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out `}
                 >
                   Contact Us
