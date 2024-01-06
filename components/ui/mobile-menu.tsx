@@ -66,9 +66,6 @@ export default function MobileMenu() {
         >
           <ul className="px-5 py-2 divide-y">
           <li>
-              <Link href="/" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Event</Link>
-            </li>
-          <li>
               <Link href="/aboutus" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>About Us</Link>
             </li>
             <li>
@@ -105,7 +102,7 @@ export default function MobileMenu() {
 
 
             <li>
-              <Link href="#" className="btn-sm text-white bg-gradient1 w-full my-2" onClick={() => setMobileNavOpen(false)}>
+              <Link href="/register" className="btn-sm text-white bg-gradient1 w-full my-2" onClick={() => setMobileNavOpen(false)}>
                 <span>Register</span>
                 <svg
                     className="w-3 h-3 fill-current text-white shrink-0 ml-2 -mr-1"

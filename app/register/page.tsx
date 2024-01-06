@@ -1,8 +1,12 @@
+import Header1 from "@/components/ui/header1";
 import Link from "next/link";
 
 export default function Register() {
   return (
-    <section className="bg-gradient-to-b from-gray-100 to-white">
+<>
+
+      <Header1 />
+      <section className="bg-gradient-to-b from-gray-100 to-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="max-w-3xl mx-auto text-center ">
@@ -47,5 +51,8 @@ export default function Register() {
 
       </div>
     </section>
+</>
+
+
   );
 }

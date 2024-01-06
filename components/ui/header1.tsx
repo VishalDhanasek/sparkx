@@ -39,15 +39,6 @@ export default function Header1() {
           <nav className="hidden md:flex md:grow">
             <ul className={`flex grow justify-end flex-wrap items-center `}>
 
-            <li>
-                <Link
-                  href="/"
-                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
-                >
-                  Events
-                </Link>
-              </li>
-
               <li>
                 <Link
                   href="/aboutus"

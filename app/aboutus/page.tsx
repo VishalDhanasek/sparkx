@@ -2,18 +2,18 @@ export const metadata = {
     title: 'About Us',
     description: 'Page description',
   }
-  
+
   import Link from 'next/link'
   import Image from 'next/image';
   import Footer from '@/components/ui/footer';
   import Team from '@/components/our-team';
   import Banner1 from '@/components/banner1';
 
-  
+
   export default function AboutUs() {
     return (
       <section className="relative">
-        
+
 
 
 
@@ -21,15 +21,15 @@ export const metadata = {
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="">
-            
+
 
 
 
         {/* Section header */}
         <section className="overflow-hidden  pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]  " data-aos="zoom-y-out">
 
-          
-        
+
+
 
         <div className="container mx-auto ">
           <div className="flex flex-wrap items-center justify-between -mx-4">
@@ -69,9 +69,9 @@ export const metadata = {
                 </div>
               </div>
             </div>
-            
-        
-                   
+
+
+
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
@@ -83,17 +83,17 @@ export const metadata = {
                         </div>
                 <h2 className="h2 mb-9 mt-2 " data-aos="zoom-y-out">Our Story</h2>
                 <p className="mb-7 text-lg text-gray-600">
-                SparkX 2024 is Tamil Nadu's largest inter-collegiate hackathon, hosting 5,000 students from across the state to innovate solutions in Manufacturing Revolution, 
-                Tech Titans Showcase, AgriTech, Cross-Sector Collaborations, and Future of Work on September 6 & 7 in Coimbatore. 
+                SparkX 2024 is Tamil Nadu's largest inter-collegiate hackathon, hosting 5,000 students from across the state to innovate solutions in Manufacturing Revolution,
+                Tech Titans Showcase, AgriTech, Cross-Sector Collaborations, and Future of Work on September 6 & 7 in Coimbatore.
                 </p>
                 <p className="mb-7 text-lg text-gray-600">
-                Participants can benefit from expert guidance, access 
+                Participants can benefit from expert guidance, access
                 cutting-edge cloud platforms and kits from sponsors, and showcase their prototypes for a chance to win cash prizes, internships, and licensing deals. The 10-week hackathon
                  concludes with a grand demo day and awards ceremony attended by tech CEOs and celebrity judges. Interested students must register as a team by April 15, 2024.
                 </p>
                 <p className="mb-7 text-lg text-gray-600">
-                SparkX's mission is to nurture a culture of innovation, cultivate ideas, and translate these ideas into solutions 
-                for real-world problems by catalysing the student community. SparkX has ambitions to take the 
+                SparkX's mission is to nurture a culture of innovation, cultivate ideas, and translate these ideas into solutions
+                for real-world problems by catalysing the student community. SparkX has ambitions to take the
                  platform global by 2025 as Asia's most aspirational and large-scale hackathon that draws the builders of tomorrow. Register to join us now if you feel the
                   spark and hunger to build change using technology!
                 </p>
@@ -105,12 +105,12 @@ export const metadata = {
 
       {/* ====== Brands Section Start */}
 
-      
+
         <div className="container mx-auto -mb-[90px] -mt-[40px]">
         <div className="pt-32 pb-12 md:pt-[60px]  content-center">
      <div className="max-w-6xl mx-auto text-center mb-5">
             <h2 className="h2 text-4xl">Organizers</h2>
-            
+
           </div>
 
 
@@ -121,14 +121,14 @@ export const metadata = {
 {/* Item */}
 <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
   <img className="max-w-full fill-current text-gray-400" src="/startnet.png" width="144" height="24">
-    
+
   </img>
 </div>
 
 {/* Item */}
 <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
   <img className="max-w-full fill-current text-gray-400" src="/growbinar.png" width="194" height="24">
-    
+
   </img>
 </div>
 
@@ -136,14 +136,14 @@ export const metadata = {
 {/* Item */}
 <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
   <img className="max-w-full fill-current text-gray-400" src="/startuptn.png" width="194" height="24">
-    
+
   </img>
 </div>
 
 {/* Item */}
 <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
   <img className="max-w-full fill-current text-gray-400" src="/dreamtn.png" width="114" height="14">
-    
+
   </img>
 </div>
 
@@ -152,14 +152,14 @@ export const metadata = {
 
         </div>
         </div>
-     
+
       {/* ====== Brands Section End */}
 
 
           <Team />
 
-          
-  
+
+
           </div>
 
 
@@ -168,4 +168,3 @@ export const metadata = {
       </section>
     )
   }
-  

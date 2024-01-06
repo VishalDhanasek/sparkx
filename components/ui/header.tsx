@@ -39,10 +39,6 @@ export default function Header() {
             <ul className={`flex grow justify-end flex-wrap items-center ${!top ? 'text-black' : 'text-white'}`}>
 
               <li>
-                <Link href="/" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Events</Link>
-              </li>
-
-              <li>
                 <Link href="/aboutus" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>About Us</Link>
               </li>
 
