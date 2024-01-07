@@ -42,15 +42,6 @@ export default function Header() {
                 <Link href="/aboutus" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>About Us</Link>
               </li>
 
-
-              <li>
-                <Link href="/mentors" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Mentors</Link>
-              </li>
-
-              <li>
-                <Link href="/partners" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Partners</Link>
-              </li>
-
               <Dropdown children={<>
               <li>
                 <Link href="/themes/agriTech" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Agri-Tech Revolution</Link>
@@ -71,7 +62,13 @@ export default function Header() {
               </>}
               title={'Themes'} />
 
+              <li>
+                <Link href="/mentors" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Mentors</Link>
+              </li>
 
+              <li>
+                <Link href="/partners" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Partners</Link>
+              </li>
 
               <li>
                 <Link href="/contactus" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Contact Us</Link>

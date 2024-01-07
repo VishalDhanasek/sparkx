@@ -48,23 +48,6 @@ export default function Header1() {
                 </Link>
               </li>
 
-              <li>
-                <Link
-                  href="/mentors"
-                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
-                >
-                  Mentors
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  href="/partners"
-                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
-                >
-                  Partners
-                </Link>
-              </li>
 
               <Dropdown1
                 children={
@@ -113,6 +96,26 @@ export default function Header1() {
                 }
                 title={"Themes"}
               />
+
+              <li>
+                <Link
+                  href="/mentors"
+                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
+                >
+                  Mentors
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/partners"
+                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
+                >
+                  Partners
+                </Link>
+              </li>
+
+
 
 
               <li>

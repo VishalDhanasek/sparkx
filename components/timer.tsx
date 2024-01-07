@@ -95,7 +95,7 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
     <div className="bg-[url('https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover  h-[500px]">
       <div className="relative h-[500px] bg-gradient-to-r from-gradient1/70 to-gradient2/40">
        <div className="max-w-3xl mx-auto mt-10 text-center ">
-            <h1 className="h2 text-white mb-2"><br></br><br></br>Registration starta on</h1>
+            <h1 className="h2 text-white mb-2"><br></br><br></br>Registration starts on</h1>
             <p className="text-xl text-white mb-10">Hurry up and Register you seat right now!</p>
           </div>
 
