@@ -6,12 +6,13 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 import Footer from '@/components/ui/footer'
+import Header1 from '@/components/ui/header1'
 
 export default function DefaultLayout({
   children,
 }: {
   children: React.ReactNode
-}) {  
+}) {
 
   useEffect(() => {
     AOS.init({
@@ -24,13 +25,15 @@ export default function DefaultLayout({
 
   return (
     <>
+
+      <Header1 />
       <main className="grow">
 
         {children}
 
       </main>
 
-      
+
     </>
   )
 }

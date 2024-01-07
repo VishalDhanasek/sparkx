@@ -4,8 +4,9 @@ import { useEffect } from 'react'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import Header1 from '@/components/ui/header1'
+
 import Footer from '@/components/ui/footer'
+import Header1 from '@/components/ui/header1'
 
 export default function DefaultLayout({
   children,
@@ -16,7 +17,7 @@ export default function DefaultLayout({
   useEffect(() => {
     AOS.init({
       once: true,
-
+      disable: 'phone',
       duration: 700,
       easing: 'ease-out-cubic',
     })
@@ -24,14 +25,14 @@ export default function DefaultLayout({
 
   return (
     <>
+      <Header1 />
       <main className="grow">
-        <Header1 />
 
         {children}
 
       </main>
 
-      <Footer />
+
     </>
   )
 }

@@ -10,12 +10,12 @@ import LogoWhite from './logowhite'
 
 export default function Header() {
 
-  const [top, setTop] = useState<boolean>(true)
+  const [top, setTop] = useState<boolean>(false)
 
   // detect whether user has scrolled the page down by 10px
   const scrollHandler = () => {
     window.pageYOffset > 10 ? setTop(false) : setTop(true)
-  }  
+  }
 
   useEffect(() => {
     scrollHandler()
@@ -36,11 +36,11 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
 
-          <ul className={`flex grow justify-end flex-wrap items-center ${!top ? 'text-black' : 'text-white'}`}>
+            <ul className={`flex grow justify-end flex-wrap items-center ${!top ? 'text-black' : 'text-white'}`}>
+
               <li>
                 <Link href="/aboutus" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>About Us</Link>
               </li>
-
 
               <Dropdown children={<>
               <li>
@@ -48,33 +48,37 @@ export default function Header() {
               </li>
               <li>
                   <Link href="/themes/manufacturingRev" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Manufacturing Revolution</Link>
-              </li> 
-              <li>
-                  <Link href="/themes/techTitans" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Tech Titans Showcase</Link>
-              </li> 
-              <li>
-                  <Link href="/themes/servicesInnovation" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Services Innovation Hub</Link>
-              </li> 
-              <li>
-                  <Link href="/themes/crossSector" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Cross Sector Collaborations</Link>
-              </li> 
-              
-              </>}  
-              title={'Themes'} />
-
-
-              <li>
-                <Link href="#" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Events</Link>
               </li>
               <li>
-                <Link href="#" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Contact Us</Link>
+                  <Link href="/themes/techTitans" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Tech Titans Showcase</Link>
+              </li>
+              <li>
+                  <Link href="/themes/servicesInnovation" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Services Innovation Hub</Link>
+              </li>
+              <li>
+                  <Link href="/themes/crossSector" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Cross Sector Collaborations</Link>
+              </li>
+
+              </>}
+              title={'Themes'} />
+
+              <li>
+                <Link href="/mentors" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Mentors</Link>
+              </li>
+
+              <li>
+                <Link href="/partners" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Partners</Link>
+              </li>
+
+              <li>
+                <Link href="/contactus" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Contact Us</Link>
               </li>
               </ul>
 
 
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-              
+
               <li>
                 <Link href="/register" className="btn-sm text-white bg-gradient1 ml-3">
                   <span>Register</span>

@@ -4,19 +4,19 @@ import Link from "next/link";
 export default function Testimonials() {
 
 
-  
+
 
   return (
     <section className="relative">
 
       <div className="mt-20 md-20 ">
 
- 
+
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
            {/* Section header */}
-          
-                        
+
+
 
         <div className="py-12 mt-1 mb-10">
 
@@ -32,7 +32,7 @@ export default function Testimonials() {
                                   <img className="max-h-12" src="/ig.png" alt="logo"/>
                                 </div>
                               </div>
-              
+
                 </div>
                 </Link>
 
@@ -56,7 +56,7 @@ export default function Testimonials() {
                                   <img className="max-h-12" src="/zoho.jpg" alt="logo"/>
                                 </div>
                                 <div className="flex justify-center col-span-1 p-8 border rounded-xl">
-                                  <img className="max-h-12" src="/veritas-finance.jpg" alt="logo"/>
+                                  <img className="max-h-12" src="/logo-truline.jpg" alt="logo"/>
                                 </div>
                                 <div className="flex justify-center col-span-1 p-8 border rounded-xl">
                                   <img className="max-h-12" src="/vivriti.jpg" alt="logo"/>
@@ -80,22 +80,22 @@ export default function Testimonials() {
                                   <img className="max-h-12" src="/grinntech.jpg" alt="logo"/>
                                 </div>
                               </div>
-              
+
                 </div>
 
 
-             
-
-
-          
-
-      
 
 
 
 
 
-          
+
+
+
+
+
+
+
 
         </div>
 

@@ -1,18 +1,16 @@
 'use client'
 
-import { useEffect } from 'react'
-
+import { useEffect } from "react"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Footer from "@/components/ui/footer"
+import Header1 from "@/components/ui/header1"
 
-import Footer from '@/components/ui/footer'
-
-export default function DefaultLayout({
+export default function MentorLayout({
   children,
 }: {
   children: React.ReactNode
-}) {  
-
+  }) {
   useEffect(() => {
     AOS.init({
       once: true,
@@ -24,13 +22,11 @@ export default function DefaultLayout({
 
   return (
     <>
+      <Header1 />
       <main className="grow">
-
-        {children}
-
+          {children}
       </main>
-
-      
+      <Footer />
     </>
   )
 }

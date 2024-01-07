@@ -38,6 +38,7 @@ export default function Header1() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             <ul className={`flex grow justify-end flex-wrap items-center `}>
+
               <li>
                 <Link
                   href="/aboutus"
@@ -46,6 +47,7 @@ export default function Header1() {
                   About Us
                 </Link>
               </li>
+
 
               <Dropdown1
                 children={
@@ -97,15 +99,28 @@ export default function Header1() {
 
               <li>
                 <Link
-                  href="#"
-                  className={`font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out `}
+                  href="/mentors"
+                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
                 >
-                  Events
+                  Mentors
                 </Link>
               </li>
+
               <li>
                 <Link
-                  href="#"
+                  href="/partners"
+                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
+                >
+                  Partners
+                </Link>
+              </li>
+
+
+
+
+              <li>
+                <Link
+                  href="/contactus"
                   className={`font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out `}
                 >
                   Contact Us

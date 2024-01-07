@@ -23,8 +23,9 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
   const getTimeDifference = (countDownTime: number) => {
-    const currentTime = new Date().getTime();
-    const timeDifference = countDownTime - currentTime;
+    const targetDate = new Date(2024, 2, 1, 12, 0); // March 1, 2023, 12 PM
+    const currentTime = new Date();
+    const timeDifference: number = (targetDate.getTime() - currentTime.getTime()) as number ;
 
     let days =
       Math.floor(timeDifference / (24 * 60 * 60 * 1000)) >= 10
@@ -94,12 +95,12 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
     <div className="bg-[url('https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover  h-[500px]">
       <div className="relative h-[500px] bg-gradient-to-r from-gradient1/70 to-gradient2/40">
        <div className="max-w-3xl mx-auto mt-10 text-center ">
-            <h1 className="h2 text-white mb-2"><br></br><br></br>Grand Finale Timer</h1>
+            <h1 className="h2 text-white mb-2"><br></br><br></br>Registration starts on</h1>
             <p className="text-xl text-white mb-10">Hurry up and Register you seat right now!</p>
           </div>
-    
+
       <div className="flex flex-col items-center justify-center gap-4 sm:gap-8">
-        
+
         <div className="flex justify-center gap-2 sm:gap-4">
           {/* Days */}
           <div className="flex flex-col gap-2 relative">
@@ -160,8 +161,8 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
       </div>
       </div>
       </div>
-      
-    
+
+
   );
 };
 
