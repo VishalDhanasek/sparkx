@@ -25,7 +25,7 @@ const Timer3: React.FC<TimerProps> = ({ countdownDays }) => {
   const getTimeDifference = (countDownTime: number) => {
     const targetDate = new Date(2024, 2, 1, 12, 0); // March 1, 2023, 12 PM
     const currentTime = new Date();
-    const timeDifference: number = (targetDate - currentTime) as number ;
+    const timeDifference: number = (targetDate.getTime() - currentTime.getTime()) as number ;
 
     let days =
       Math.floor(timeDifference / (24 * 60 * 60 * 1000)) >= 10
