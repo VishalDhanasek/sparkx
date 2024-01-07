@@ -53,7 +53,7 @@ export default function Home() {
       <Hero />
 
       <Organizers />
-      <Timer3 countdownDays={30}/>
+      <Timer3 countdownDays={54} />
       <Features />
       <New/>
       <Themes/>
