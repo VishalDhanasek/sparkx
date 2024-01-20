@@ -20,7 +20,7 @@ export default function ContactUs() {
             </h1>
             <br />
             <h5 className="h4 text-gray-400">Drop your mail at</h5>
-            <h2 className="h4 mb-20">sparkx2024@gmail.com</h2>
+            <h2 className="h4 mb-20">contact@sparkx.co.in</h2>
 
 
             <h5 className="h4 mt-8 text-gray-400">Make a call to </h5>
