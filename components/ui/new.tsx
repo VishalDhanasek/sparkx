@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function New() {
   return (
-    <div className="relative bg-cover w-full rounded-tr-[100px]" style={{ backgroundImage: "url('/1trillion.jpg')" }}>
+    <div className="relative bg-cover w-full rounded-tr-[100px]" style={{ backgroundImage: "url('https://res.cloudinary.com/duytedcdh/image/upload/v1705767977/sparkx_2024/a5p5cae7qugrkquqvo03.png')" }}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="max-w-6xl mx-auto text-left pb-12 md:pb-6 relative">
           <div className="py-9 mt-0 mb-10"></div>
@@ -12,8 +12,8 @@ export default function New() {
         </div>
         <div className="justify-center md:pb-16 flex relative" style={{ zIndex: 2 }}>
           <div className="relative">
-            
-            <img src="/1trillion1.png" width="450" height="183" alt="Logos" style={{ position: 'relative', zIndex: 2 }} />
+
+            <img src="https://res.cloudinary.com/duytedcdh/image/upload/v1705767977/sparkx_2024/a5p5cae7qugrkquqvo03.png" width="450" height="183" alt="Logos" style={{ position: 'relative', zIndex: 2 }} />
           </div>
         </div>
         <div className="py-9 mt-0 mb-10"></div>

@@ -1,14 +1,14 @@
 export default function Bento1() {
 
 
-  
+
 
     return (
       <section className="relative max-w-6xl mx-auto px-4 sm:px-6 mt-20 mb-[110px]">
-  
+
   <div className=" mx-auto max-xl:mx-3">
 
-  
+
 
   <div className="grid grid-cols-1 md:grid-cols-5 grid-rows-6 gap-3">
 
@@ -17,15 +17,15 @@ export default function Bento1() {
   </div>
 
   <div className="relative md:row-span-3 md:col-start-3 rounded-2xl bg-[url('https://images.unsplash.com/photo-1616198814651-e71f960c3180?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-cover opacity-15">
-  
+
   <h3 className="h3 mt-[200px] p-4 md:p-8 ml-[100px] text-white ">36 Hrs </h3>
- 
+
   </div>
 
   <div className="md:col-span-2 md:row-span-3 md:col-start-3 md:row-start-4 rounded-2xl bg-[url('https://www.shutterstock.com/shutterstock/videos/1095103441/thumb/9.jpg?ip=x480')] bg-no-repeat bg-cover  ">
   <h2 className="h4 mt-4 p-4 md:p-8 text-white">Backed by StartUp TN<br></br>& DreamTamilNadu </h2>
         <div className="justify-center mt-4 p-4 md:p-8" >
-<img src="/logotn.png" width="780" height="83" alt="Logos"/>
+<img src="https://res.cloudinary.com/duytedcdh/image/upload/v1705768678/sparkx_2024/cxeenuxdud5o4rwl5qbw.png" width="780" height="83" alt="Logos"/>
 </div>
   </div>
 
@@ -50,4 +50,4 @@ export default function Bento1() {
 
     </section>
     )
-}        
+}

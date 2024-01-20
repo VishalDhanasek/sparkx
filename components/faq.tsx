@@ -20,7 +20,7 @@ export default function Faq(prop: {faqs: {title: string, text: string, active: b
       >
         <img
           className="h-[500px] -ml-[170px]"
-          src="./illus.png"
+          src="https://res.cloudinary.com/duytedcdh/image/upload/v1705768272/sparkx_2024/uhcwh9q7ektj2x436sks.png"
           alt="Flower and sky"
         ></img>
         <svg

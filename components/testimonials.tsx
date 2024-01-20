@@ -56,7 +56,7 @@ export default function Testimonials() {
                                   <img className="max-h-12" src="/zoho.jpg" alt="logo"/>
                                 </div>
                                 <div className="flex justify-center col-span-1 p-8 border rounded-xl">
-                                  <img className="max-h-12" src="/logo-truline.jpg" alt="logo"/>
+                                  <img className="max-h-12" src="https://res.cloudinary.com/duytedcdh/image/upload/v1705768378/sparkx_2024/laxwxwzaoi99cndoar5g.jpg" alt="logo"/>
                                 </div>
                                 <div className="flex justify-center col-span-1 p-8 border rounded-xl">
                                   <img className="max-h-12" src="/vivriti.jpg" alt="logo"/>
