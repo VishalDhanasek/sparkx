@@ -14,14 +14,14 @@ export default function Register() {
           </div>
         </div>
 
-        <div className="container p-4 m-4 flex flex-col md:flex-row gap-4 truncate">
+        <div className="flex flex-col p-4 m-4 md:flex-row gap-4 ">
           <div className="border-2 border-grey-500 w-full px-2 pb-2">
             <img
               className="p-8"
               src="https://img.freepik.com/free-vector/team-goals-concept-illustration_114360-5175.jpg"
               alt="participant"
             />
-            <h2 className="h2 text-xl text-center item-center font-bold mb-4 rtl:space-x-reverse">
+            <h2 className="h2 text-xl py-2 text-center item-center font-bold mb-4 rtl:space-x-reverse">
             <span className="text-center">Register as participant</span>
             </h2>
             <Link
@@ -39,8 +39,8 @@ export default function Register() {
               height={720}
               alt="Mentor"
             />
-            <h2 className="h2 text-xl text-center item-center font-bold mb-4 rtl:space-x-reverse">
-            <span>Register as Mentor</span>
+            <h2 className="h2 text-xl py-2 text-center item-center font-bold mb-4 rtl:space-x-reverse">
+              <span>Register as Mentor</span>
             </h2>
             <Link
               href="/register/mentor"
@@ -55,9 +55,9 @@ export default function Register() {
               src="https://img.freepik.com/free-vector/ambassador-concept-illustration_114360-7557.jpg"
               alt="Campus Ambassador"
             />
-            <h2 className="h2 text-xl  text-center item-center font-bold mb-4 rtl:space-x-reverse">
-            <span>Register as Campus Ambassador</span>
-            </h2>
+            <h3 className="h4 text-xl py-2 trancate text-center item-center font-bold mb-4 rtl:space-x-reverse">
+              <span>Register as Campus Ambassador</span>
+            </h3>
             <Link
               href="/register/campusAmbassador"
               className="btn-sm text-white bg-gradient1 hover:bg-gradient1 item-center  w-full px-6 ">
