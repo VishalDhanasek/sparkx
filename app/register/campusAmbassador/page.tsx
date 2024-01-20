@@ -210,7 +210,7 @@ export default function MentorDetails() {
               </div>
 
               <h2 className="mb-4 mt-10 text-xl font-bold text-gray-800 ">
-                Availability
+              Ambassador Motivation
               </h2>
 
               <div className="flex flex-wrap -mx-3 mb-4">
@@ -265,6 +265,29 @@ export default function MentorDetails() {
                     type="text"
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Expected number of hours available"
+                    required
+                  />
+                </div>
+              </div>
+
+
+              <div className="flex flex-wrap -mx-3 mb-4">
+                <div className="w-full px-3">
+                  <label
+                    className="block text-gray-800 text-sm font-medium mb-1"
+                    htmlFor="name"
+                  >
+                    Photo
+                    <span className="text-red-600">*</span>
+                  </label>
+                  <span className="text-gray-600">
+                    <p className="text-xs">Upload the picture in google drive, provide public access and share the link here</p>
+                  </span>
+                  <input
+                    id="name"
+                    type="link"
+                    className="form-input w-full text-gray-800"
+                    placeholder="Enter your google drive link of your profile picture"
                     required
                   />
                 </div>
