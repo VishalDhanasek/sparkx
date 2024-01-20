@@ -1,48 +1,16 @@
-export const metadata = {
-  title: "Contact Us",
-  description: "Page description",
-};
+"use client";
 
-import { sql } from "@vercel/postgres";
-
-interface Error{
-}
+import { useState } from "react";
+import { submitContactUs } from "./action";
 
 export default function ContactUs() {
-  async function submitContactUs(formData: string[]): Promise<void> {
-    "use server";
-    let name, email, message;
-    for (let item of formData) {
-      switch (item[0]) {
-        case "name":
-          name = item[1];
-          break;
-        case "email":
-          email = item[1];
-          break;
-        case "message":
-          message = item[1];
-          break;
-        default:
-          break;
-      }
-    }
-
-    try {
-      const { rows } = await sql`
-      INSERT INTO contact(name, email, message)
-      VALUES(${name}, ${email}, ${message});
-    `;
-    } catch (error: any) {
-      const lines = error.toString().split('\n');
-      const lastLine = lines[lines.length - 1].trim();
-      console.log("->> last", lastLine, "< --");
-    }
-
-  }
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   return (
     <section className="bg-gradient-to-b from-gray-100 to-white">
+      <title> Contact Us</title>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div
           className="flex flex-col sm:flex-row pt-32 pb-12 md:pt-40 md:pb-0"
@@ -66,7 +34,7 @@ export default function ContactUs() {
 
           {/* Form */}
           <div className="lg:w-1/2 lg:mx-6 pb-12 md:pb-20">
-            <form action={submitContactUs}>
+            <form>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
                   <label
@@ -77,7 +45,8 @@ export default function ContactUs() {
                   </label>
                   <input
                     id="name"
-                    name="name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                     type="text"
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your name"
@@ -95,7 +64,8 @@ export default function ContactUs() {
                   </label>
                   <input
                     id="email"
-                    name="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     type="email"
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your email address"
@@ -109,11 +79,13 @@ export default function ContactUs() {
                     className="block text-gray-800 text-sm font-medium mb-1"
                     htmlFor="long-text"
                   >
-                    Message <span className="text-red-600">*</span>
+                    Message
+                    <span className="text-red-600">*</span>
                   </label>
                   <textarea
                     id="long-text"
-                    name="message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                     className="form-input w-full resize-none text-gray-800"
                     placeholder="Type your Message"
                     required
@@ -122,7 +94,15 @@ export default function ContactUs() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">
+                  <button
+                    onClick={(e) => {
+
+                      e.preventDefault();
+                      // toast.success("Your message goes here");
+                      submitContactUs(name, email, message);
+                    }}
+                    className="btn text-white bg-blue-600 hover:bg-blue-700 w-full"
+                  >
                     Send
                   </button>
                 </div>
