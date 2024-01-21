@@ -110,7 +110,7 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your University/College name"
                     required
-                    onChange={(e)=>setClgName(e.target.value)}  
+                    onChange={(e)=>setClgName(e.target.value)}
                   />
                 </div>
               </div>
