@@ -23,6 +23,7 @@
     "react-parallax-tilt": "^1.7.163",
     "react-syntax-highlighter": "^15.5.0",
     "react-tilt": "^1.0.2",
+    "react-toastify": "^10.0.4",
     "typescript": "^5.0.4"
   },
   "devDependencies": {
