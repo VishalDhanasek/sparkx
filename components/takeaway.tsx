@@ -7,18 +7,18 @@
 
 export default function Takeaway() {
 
-  
+
     return (
         <div className="max-w-6xl mx-auto px-4 sm:px-6 mt-0 mb-0 bg-white ">
-           
-            
-            
-            
+
+
+
+
             <section className="relative py-20 overflow-hidden">
-                
+
         <div className="container px-4 mx-auto">
         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            
+
             <h2 className="h2 mb-4">SparkX Takeaways</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Innovate | Collaborate | Accelerate</p>
           </div>
@@ -33,7 +33,7 @@ export default function Takeaway() {
                     <div>
                     <h4 className="text-xl h4 ">Innovation </h4>
                     <span className="text-sm text-gray-400">Sparkx facilitates rapid innovation, <br></br>creating solutions to industry problems <br></br> and using emerging tech to build <br></br> unique prototypes and business models. </span>
-                      
+
                     </div>
                   </div>
                   <div className="flex items-center pb-12 mb-12 ">
@@ -57,9 +57,9 @@ export default function Takeaway() {
                 </div>
               </div>
               <div className="w-full lg:w-1/5 xl:w-auto mx-auto px-4 mb-12 text-center">
-              
 
-                <img className="block mx-auto h-[650px] md:h-80 xl:h-[550px] xl:w-[360px] " src="/trophy.png" alt="" />
+
+                <img className="block mx-auto h-[650px] md:h-80 xl:h-[550px] xl:w-[360px] " src="https://res.cloudinary.com/duytedcdh/image/upload/v1705768481/sparkx_2024/uy1mlhq6dd8t8q0bwlyg.png" alt="" />
               </div>
               <div className="w-full lg:w-2/5 xl:w-auto px-4 lg:pb-10 ">
                 <div className="mx-auto max-w-sm">
@@ -95,12 +95,12 @@ export default function Takeaway() {
             </div>
           </div>
         </div>
-      </section>       
+      </section>
 
-          
-            
-    
+
+
+
   </div>
     )
 
-    }   
+    }

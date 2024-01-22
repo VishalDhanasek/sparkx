@@ -13,7 +13,7 @@ export default function Hero() {
         className="min-w-full min-h-full absolute object-cover"
       >
         <source
-          src="./hero2.mp4"
+          src="https://res.cloudinary.com/duytedcdh/video/upload/v1705767665/sparkx_2024/djw3agzwomyta3ixg8il.mp4"
           type="video/mp4"
         />
       </video>

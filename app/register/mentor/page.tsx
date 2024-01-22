@@ -1,12 +1,28 @@
-export const metadata = {
-  title: "Mentor Details",
-};
+'use client'
 
 import Link from "next/link";
+import { use, useState } from "react";
+import { registerMentor } from "./action";
+import 'react-toastify/dist/ReactToastify.css';
+import { toast, ToastContainer } from 'react-toastify';
 
 export default function MentorDetails() {
+
+  const [name, setName] = useState('')
+  const [position, setPosition] = useState('')
+  const [organization, setOrganization] = useState('')
+  const [email, setEmail] = useState('')
+  const [phoneNumber, setPhoneNumber] = useState('')
+  const [techBackground, setTechBackground] = useState('')
+  const [experience, setExperience] = useState('')
+  const [topics, setTopics] = useState('')
+  const [dateAndTime, setDateAndTime] = useState('')
+  const [preference, setPreference] = useState('')
+  const [hoursAvailable, setHoursAvailable] = useState('')
+
   return (
     <section className="bg-gradient-to-b from-gray-100 to-white">
+      <title>Mentor Details</title>
       <div className="max-w-9xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Form */}
@@ -29,6 +45,7 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Name"
                     required
+                    onChange={(e)=>setName(e.target.value)}
                   />
                 </div>
               </div>
@@ -46,6 +63,7 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Position"
                     required
+                    onChange={(e)=>setPosition(e.target.value)}
                   />
                 </div>
               </div>
@@ -63,6 +81,7 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Organization"
                     required
+                    onChange={(e)=>setOrganization(e.target.value)}
                   />
                 </div>
               </div>
@@ -80,6 +99,7 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Email"
                     required
+                    onChange={(e)=>setEmail(e.target.value)}
                   />
                 </div>
               </div>
@@ -97,6 +117,7 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Phone Number"
                     required
+                    onChange={(e)=>setPhoneNumber(e.target.value)}
                   />
                 </div>
               </div>
@@ -120,6 +141,7 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Technical background and skills"
                     required
+                    onChange={(e)=>setTechBackground(e.target.value)}
                   />
                 </div>
               </div>
@@ -139,6 +161,7 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Technical background and skills"
                     required
+                    onChange={(e)=>setExperience(e.target.value)}
                   />
                 </div>
               </div>
@@ -162,6 +185,7 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Key topics comfortable mentoring students on"
                     required
+                    onChange={(e)=>setTopics(e.target.value)}
                   />
                 </div>
               </div>
@@ -185,6 +209,7 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Days/times available for mentorship sessions"
                     required
+                    onChange={(e)=>setDateAndTime(e.target.value)}
                   />
                 </div>
               </div>
@@ -204,6 +229,7 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your In-person or virtual preference"
                     required
+                    onChange={(e)=>setPreference(e.target.value)}
                   />
                 </div>
               </div>
@@ -223,14 +249,21 @@ export default function MentorDetails() {
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Expected number of hours available"
                     required
+                    onChange={(e)=>setHoursAvailable(e.target.value)}
                   />
                 </div>
               </div>
 
-              <div className=" -mx-3 mb-20 mt-10 grid gap-4 mb-4 sm:grid-cols-2 sm:gap-6 sm:mb-5 float-right">
+              <div className=" -mx-3 mb-20 mt-10 grid gap-4 sm:grid-cols-2 sm:gap-6 sm:mb-5 float-right">
                 <Link
                   href="#"
                   className="btn-sm text-white bg-blue-600 hover:bg-blue-700 mb-20 ml-3"
+                  onClick={
+                    ()=>{
+                      registerMentor({name, position,organization, email,phoneNumber, techBackground, experience, topics, dateAndTime, preference, hoursAvailable})
+                      toast.success('Submitted successfully')
+                    }
+                  }
                 >
                   <span>Register</span>
                   <svg
@@ -244,6 +277,7 @@ export default function MentorDetails() {
                     />
                   </svg>
                 </Link>
+                <ToastContainer />
               </div>
             </form>
           </div>
