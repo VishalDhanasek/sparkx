@@ -255,8 +255,7 @@ export default function MentorDetails() {
               </div>
 
               <div className=" -mx-3 mb-20 mt-10 grid gap-4 sm:grid-cols-2 sm:gap-6 sm:mb-5 float-right">
-                <Link
-                  href="#"
+                <button
                   className="btn-sm text-white bg-blue-600 hover:bg-blue-700 mb-20 ml-3"
                   onClick={
                     ()=>{
@@ -276,7 +275,7 @@ export default function MentorDetails() {
                       fillRule="nonzero"
                     />
                   </svg>
-                </Link>
+                </button>
                 <ToastContainer />
               </div>
             </form>

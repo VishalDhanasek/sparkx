@@ -327,8 +327,8 @@ export default function MentorDetails() {
 
 
               <div className=" -mx-3 mb-20 mt-10 grid gap-4 sm:grid-cols-2 sm:gap-6 sm:mb-5 float-right">
-                <Link
-                  href="#"
+                <button
+                  // href=""
                   onClick={
                     ()=>{
                       registerAmbassador({name, email, phoneNumber, clgName, yearOfStudy, courseName, clgCity, interest, skillExp, keyTopic, dateAndTime, preference, hoursAvailable, photoLink})
@@ -348,7 +348,7 @@ export default function MentorDetails() {
                       fillRule="nonzero"
                     />
                   </svg>
-                </Link>
+                </button>
                 <ToastContainer />
               </div>
             </form>
