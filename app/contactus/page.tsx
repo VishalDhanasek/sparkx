@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import { submitContactUs } from "./action";
+import 'react-toastify/dist/ReactToastify.css';
+import { toast, ToastContainer } from 'react-toastify';
 
 export default function ContactUs() {
   const [name, setName] = useState("");
@@ -98,8 +100,8 @@ export default function ContactUs() {
                     onClick={(e) => {
 
                       e.preventDefault();
-                      // toast.success("Your message goes here");
                       submitContactUs(name, email, message);
+                      toast.success('Submitted successfully!')
                     }}
                     className="btn text-white bg-blue-600 hover:bg-blue-700 w-full"
                   >
@@ -111,6 +113,7 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </section>
   );
 }
