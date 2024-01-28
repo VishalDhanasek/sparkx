@@ -13,7 +13,7 @@ export default function Bento1() {
   <div className="grid grid-cols-1 md:grid-cols-5 grid-rows-6 gap-3">
 
   <div className="md:col-span-2 md:row-span-6 rounded-2xl  bg-[url('https://images.pexels.com/photos/2147029/pexels-photo-2147029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-no-repeat bg-cover opacity-15">
-    <h3 className="h3 font-bold mt-4 p-4 md:p-8 text-white">5 Lakhs <br></br>Prize Pool</h3>
+    <h3 className="h3 font-bold mt-4 p-4 md:p-8 text-white">₹1 Crore <br></br>Seed Funding</h3>
   </div>
 
   <div className="relative md:row-span-3 md:col-start-3 rounded-2xl bg-[url('https://images.unsplash.com/photo-1616198814651-e71f960c3180?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-cover opacity-15">
@@ -29,8 +29,8 @@ export default function Bento1() {
 </div>
   </div>
 
-  <div className="md:col-span-2 md:row-span-3 md:col-start-4 md:row-start-1 rounded-2xl bg-[url('https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-cover opacity-15">
-  <h2 className="h3 mt-4 p-4 md:p-8 text-white">TN's Largest<br></br>Tech Hackathon </h2>
+  <div className="md:col-span-2 md:row-span-3 md:col-start-4 md:row-start-1 rounded-2xl bg-[url('https://images.unsplash.com/photo-1514820720301-4c4790309f46?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-cover opacity-15">
+  <h2 className="h3 mt-4 p-4 md:p-8 text-white">₹10 Lakh<br></br>Prize Pool </h2>
   </div>
 
   <div className="md:row-span-3 md:col-start-5 md:row-start-4 rounded-2xl bg-[url('https://images.unsplash.com/photo-1700936655679-83f4b37d7d74?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-cover opacity-15">
