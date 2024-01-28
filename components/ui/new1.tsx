@@ -5,10 +5,10 @@ export default function New1() {
         <div className="max-w-6xl mx-auto text-right  pb-12 md:pb-6">
           <div className="py-9 mt-0 mb-10"></div>
           <h2 className="h2 mt-10 mb-4 text-white">
-            Exiting Webinars and workshops <br></br>by Industry Experts
+            Exiting Workshops and Training Programs <br></br>by Industry Experts
           </h2>
           <p className="text-xl text-white" data-aos="zoom-y-out">
-            Multiple webinars and workshops for all the partipants
+            Multiple  Workshops & Training programs for all the partipants
           </p>
         </div>
         <div className="justify-center  md:pb-16 flex">
