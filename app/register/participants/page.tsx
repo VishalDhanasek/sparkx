@@ -51,7 +51,13 @@ export const metadata = {
         <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-500 dark:text-blue-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5"/>
          </svg>
-        <span>Team size: <span className="font-semibold text-gray-900 ">5 members</span></span>
+        <span>Team size: <span className="font-semibold text-gray-900 ">5 members ( Minimum 3, Maximum 5)</span></span>
+    </li>
+    <li className="flex items-center space-x-3 rtl:space-x-reverse">
+        <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-500 dark:text-blue-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+         </svg>
+        <span>We recommend a minimum of one girl on each team.</span>
     </li>
     <li className="flex items-center space-x-3 rtl:space-x-reverse">
         <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-500 dark:text-blue-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
@@ -73,7 +79,7 @@ export const metadata = {
 
                 <div className="flex flex-wrap -mx-3 mb-10">
                   <div className="w-full px-3 ">
-                  <Link href="/register/participants/teamInfo" className="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full">
+                  <Link href="/register/participants/teamInfo" className="btn-sm text-white bg-gradient1  w-full">
                   <span>Start Registration</span>
 
                 </Link>

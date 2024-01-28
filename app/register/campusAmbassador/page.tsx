@@ -327,6 +327,9 @@ export default function MentorDetails() {
 
 
               <div className=" -mx-3 mb-20 mt-10 grid gap-4 sm:grid-cols-2 sm:gap-6 sm:mb-5 float-right">
+              <Link href="/register" className="btn-sm text-white bg-gradient1  ml-3 w-50 mb-20">
+                  <span>Back</span>
+                </Link>
                 <button
                   // href=""
                   onClick={
@@ -335,7 +338,7 @@ export default function MentorDetails() {
                       toast.success('Submitted successfully!')
                     }
                   }
-                  className="btn-sm text-white bg-blue-600 hover:bg-blue-700 mb-20 ml-3 "
+                  className="btn-sm text-white bg-gradient1 mb-20 ml-3 "
                 >
                   <span>Register</span>
                   <svg
