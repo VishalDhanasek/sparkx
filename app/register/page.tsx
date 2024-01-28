@@ -1,6 +1,11 @@
 import Header1 from "@/components/ui/header1";
 import Link from "next/link";
 
+export const metadata = {
+  title: 'Register',
+  description: 'Register',
+  kewwords: 'SparkX'
+}
 export default function Register() {
   return (
     <>
@@ -18,7 +23,7 @@ export default function Register() {
           <div className="border-2 border-grey-500 w-full px-2 pb-2">
             <img
               className="p-8"
-              src="https://img.freepik.com/free-vector/team-goals-concept-illustration_114360-5175.jpg"
+              src="./participent.png"
               alt="participant"
             />
             <h2 className="h2 text-xl py-2 text-center item-center font-bold mb-4 rtl:space-x-reverse">
@@ -34,7 +39,7 @@ export default function Register() {
           <div className="border-2 border-grey-500 w-full px-2 pb-2">
             <img
               className="p-8"
-              src="https://img.freepik.com/free-vector/helping-partner-concept-illustration_114360-8584.jpg"
+              src="./mentor.png"
               width={1380}
               height={720}
               alt="Mentor"
@@ -52,7 +57,7 @@ export default function Register() {
           <div className="border-2 border-grey-500 w-full px-2 pb-2">
             <img
               className="p-8"
-              src="https://img.freepik.com/free-vector/ambassador-concept-illustration_114360-7557.jpg"
+              src="./Ambassador.png"
               alt="Campus Ambassador"
             />
             <h3 className="h4 text-xl py-2 trancate text-center item-center font-bold mb-4 rtl:space-x-reverse">
