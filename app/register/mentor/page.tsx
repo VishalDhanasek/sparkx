@@ -201,14 +201,12 @@ export default function MentorDetails() {
                     htmlFor="name"
                   >
                     Days/times available for mentorship sessions
-                    <span className="text-red-600">*</span>
                   </label>
                   <input
                     id="name"
                     type="text"
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Days/times available for mentorship sessions"
-                    required
                     onChange={(e)=>setDateAndTime(e.target.value)}
                   />
                 </div>
@@ -221,14 +219,12 @@ export default function MentorDetails() {
                     htmlFor="name"
                   >
                     In-person or virtual preference
-                    <span className="text-red-600">*</span>
                   </label>
                   <input
                     id="name"
                     type="text"
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your In-person or virtual preference"
-                    required
                     onChange={(e)=>setPreference(e.target.value)}
                   />
                 </div>
@@ -241,14 +237,12 @@ export default function MentorDetails() {
                     htmlFor="name"
                   >
                     Expected number of hours available
-                    <span className="text-red-600">*</span>
                   </label>
                   <input
                     id="name"
                     type="text"
                     className="form-input w-full text-gray-800"
                     placeholder="Enter your Expected number of hours available"
-                    required
                     onChange={(e)=>setHoursAvailable(e.target.value)}
                   />
                 </div>
