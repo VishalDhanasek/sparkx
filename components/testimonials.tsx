@@ -29,8 +29,8 @@ export default function Testimonials() {
             <div className="max-w-3xl mx-auto text-center mb-5">
               <h2 className="h2 mb-4">Seed Funding Partner</h2>
               <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-                Empowering Innovation, Enabling Progress: Our Trusted Official
-                Tech Partner.
+              Empowering Growth, Cultivating Success: Our Trusted Seed Funding Partner
+
               </p>
             </div>
             <Link href="https://enlightenvc.online/">
@@ -46,7 +46,7 @@ export default function Testimonials() {
             <div className="max-w-3xl mx-auto text-center mt-3 mb-5">
               <h2 className="h2 mb-4">Our Sponsors</h2>
               <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-              Empowering Growth, Cultivating Success: Our Trusted Seed Funding Partner
+              Elevate Your Vision with the Support of Our Valued Sponsors
               </p>
             </div>
 
