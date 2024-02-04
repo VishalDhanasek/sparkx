@@ -25,7 +25,7 @@ export default function Bento1() {
   <div className="md:col-span-2 md:row-span-3 md:col-start-3 md:row-start-4 rounded-2xl bg-[url('https://www.shutterstock.com/shutterstock/videos/1095103441/thumb/9.jpg?ip=x480')] bg-no-repeat bg-cover  ">
   <h2 className="h4 mt-4 p-4 md:p-8 text-white">Backed by StartUp TN<br></br>& DreamTamilNadu </h2>
         <div className="justify-center mt-4 p-4 md:p-8" >
-<img src="https://res.cloudinary.com/duytedcdh/image/upload/v1705768678/sparkx_2024/cxeenuxdud5o4rwl5qbw.png" width="780" height="83" alt="Logos"/>
+<img src="partnership.png" width="780" height="83" alt="Logos"/>
 </div>
   </div>
 
