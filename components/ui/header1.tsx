@@ -7,6 +7,7 @@ import Logo from "./logo";
 import Dropdown1 from "@/components/utils/dropdown1";
 import MobileMenu from "./mobile-menu";
 import LogoWhite from "./logowhite";
+import DropdownRight from "../utils/dropdownright";
 
 export default function Header1() {
   const [top, setTop] = useState<boolean>(true);
@@ -38,93 +39,60 @@ export default function Header1() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             <ul className={`flex grow justify-end flex-wrap items-center `}>
-
+            <Dropdown1 children={<>
               <li>
-                <Link
-                  href="/aboutus"
-                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
-                >
-                  About Us
-                </Link>
+                <Link href="/aboutus" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Our Team</Link>
               </li>
 
+              <DropdownRight children={<>
+              <li>
+                <Link href="/themes/agriTech " className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Agri-Tech Revolution</Link>
+              </li>
+              
+              <li>
+                  <Link href="/themes/manufacturingRev" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Manufacturing Revolution</Link>
+              </li>
+              <li>
+                  <Link href="/themes/techTitans" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Tech Titans Showcase</Link>
+              </li>
+              <li>
+                  <Link href="/themes/servicesInnovation" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Services Innovation Hub</Link>
+              </li>
+              <li>
+                  <Link href="/themes/crossSector" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Cross Sector Collaborations</Link>
+              </li>
 
-              <Dropdown1
-                children={
-                  <>
-                    <li>
-                      <Link
-                        href="/themes/agriTech"
-                        className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out "
-                      >
-                        Agri-Tech Revolution
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/themes/manufacturingRev"
-                        className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                      >
-                        Manufacturing Revolution
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/themes/techTitans"
-                        className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                      >
-                        Tech Titans Showcase
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/themes/servicesInnovation"
-                        className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                      >
-                        Services Innovation Hub
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/themes/crossSector"
-                        className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                      >
-                        Cross Sector Collaborations
-                      </Link>
-                    </li>
-                  </>
-                }
-                title={"Themes"}
-              />
+              </>}
+              title={'Themes'} />
+
+              </>}
+              title={'About SparkX'} />
+
+             <Dropdown1 children={<>
+              <li>
+                <Link href="/register/participants" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Hackathon Rules</Link>
+              </li>
+              <li>
+                <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Problem Statement</Link>
+              </li>
+              <li>
+                <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">FAQ</Link>
+              </li>
+
+              </>}
+              title={'Hackers'} />
+
 
               <li>
-                <Link
-                  href="/mentors"
-                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
-                >
-                  Mentors
-                </Link>
+                <Link href="/mentors" className={`font-medium   text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out`}>Mentors</Link>
               </li>
 
               <li>
-                <Link
-                  href="/partners"
-                  className={`font-medium  px-5 py-3 flex items-center text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out`}
-                >
-                  Partners
-                </Link>
+                <Link href="/partners" className={`font-medium   text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out `}>Partners</Link>
               </li>
 
-
-
-
               <li>
-                <Link
-                  href="/contactus"
-                  className={`font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out `}
-                >
-                  Contact Us
-                </Link>
+                <Link href="/contactus" className={`font-medium  text-gray-600 hover:text-gray-900  px-5 py-3 flex items-center transition duration-150 ease-in-out `}>Contact Us</Link>
               </li>
             </ul>
 

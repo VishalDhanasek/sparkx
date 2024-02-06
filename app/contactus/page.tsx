@@ -20,7 +20,7 @@ export default function ContactUs() {
         >
           {/* Page header */}
           <div className="lg:w-1/2 lg:mx-6   pb-12 md:pb-20">
-            <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+            <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-gradient1 to-teal-400">
               Get in Touch!
             </h1>
             <br />
@@ -103,7 +103,7 @@ export default function ContactUs() {
                       submitContactUs(name, email, message);
                       toast.success('Submitted successfully!')
                     }}
-                    className="btn text-white bg-blue-600 hover:bg-blue-700 w-full"
+                    className="btn text-white bg-gradient1 w-full"
                   >
                     Send
                   </button>

@@ -7,6 +7,7 @@ import Logo from './logo'
 import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
 import LogoWhite from './logowhite'
+import DropdownRight from '../utils/dropdownright'
 
 export default function Header() {
 
@@ -38,14 +39,16 @@ export default function Header() {
 
             <ul className={`flex grow justify-end flex-wrap items-center ${!top ? 'text-black' : 'text-white'}`}>
 
+            <Dropdown children={<>
               <li>
-                <Link href="/aboutus" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>About Us</Link>
+                <Link href="/aboutus" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Our Team</Link>
               </li>
 
-              <Dropdown children={<>
+              <DropdownRight children={<>
               <li>
-                <Link href="/themes/agriTech" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Agri-Tech Revolution</Link>
+                <Link href="/themes/agriTech " className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Agri-Tech Revolution</Link>
               </li>
+              
               <li>
                   <Link href="/themes/manufacturingRev" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Manufacturing Revolution</Link>
               </li>
@@ -61,6 +64,24 @@ export default function Header() {
 
               </>}
               title={'Themes'} />
+
+              </>}
+              title={'About SparkX'} />
+
+             <Dropdown children={<>
+              <li>
+                <Link href="/register/participants" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Hackathon Rules</Link>
+              </li>
+              <li>
+                <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Problem Statement</Link>
+              </li>
+              <li>
+                <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">FAQ</Link>
+              </li>
+
+              </>}
+              title={'Hackers'} />
+
 
               <li>
                 <Link href="/mentors" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-600' : 'text-white'}`}>Mentors</Link>
