@@ -76,7 +76,7 @@ export default function Header1() {
                 <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Problem Statement</Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">FAQ</Link>
+                <Link href="/faq" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">FAQ</Link>
               </li>
 
               </>}
